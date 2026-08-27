@@ -63,6 +63,7 @@ git pull --ff-only
 - [Day 11：线性回归——从数据、损失到参数更新](day11/README.md)
 - [Day 12：nn.Module、参数与前向传播](day12/README.md)
 - [Day 13：optimizer、mini-batch、epoch 与过拟合](day13/README.md)
+- [Day 14：Dataset、DataLoader 与可复现随机性](day14/README.md)
 
 ## 统一执行约定
 
