@@ -1,0 +1,9 @@
+model_name: random
+task_suite_name: extrapolation_preposition_combinations
+task_level: 2
+num_steps_wait: 10
+num_trials_per_task: 2
+use_local_log: true
+use_wandb: false
+seed: 19
+result_json_path: learner_outputs/mainline/day02/challenge_results.json

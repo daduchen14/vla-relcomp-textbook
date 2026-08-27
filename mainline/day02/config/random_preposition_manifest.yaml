@@ -1,0 +1,10 @@
+# 课程侧只读追踪配置；不会覆盖 upstream random.yaml。
+model_name: random
+task_suite_name: extrapolation_preposition_combinations
+task_level: 0
+num_steps_wait: 10
+num_trials_per_task: 1
+use_local_log: true
+use_wandb: false
+seed: 42
+result_json_path: learner_outputs/mainline/day02/future_random_results.json
