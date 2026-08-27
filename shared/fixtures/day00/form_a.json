@@ -1,0 +1,19 @@
+{
+  "form_id": "A",
+  "command": ["python3", "-c", "import sys; print('FORM-A-PROBE'); sys.exit(3)"],
+  "records": [
+    {"episode_id": "diag_a_001", "level": "L0", "success": "true"},
+    {"episode_id": "diag_a_002", "level": "L1", "success": "false"},
+    {"episode_id": "diag_a_bad", "level": "L2", "success": "maybe"}
+  ],
+  "observation": {
+    "agent_image": {"dtype": "uint8", "values": [[[0, 10, 20], [30, 40, 50]], [[60, 70, 80], [90, 100, 110]]]},
+    "state": {"dtype": "float32", "values": [0.1, -0.2, 0.3, 0.0]}
+  },
+  "trace": [
+    {"step": 0, "done": false, "info": {"success": false, "timeout": false}},
+    {"step": 1, "done": false, "info": {"success": false, "timeout": false}},
+    {"step": 2, "done": true, "info": {"success": true, "timeout": false}}
+  ],
+  "git": {"base_text": "mode=baseline\n", "target_text": "mode=form_a\n"}
+}
