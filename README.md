@@ -60,6 +60,7 @@ git pull --ff-only
 - [Day 8：episode、step、success 与实验目录闭环](day08/README.md)
 - [Day 9：Tensor、shape、dtype 与 device](day09/README.md)
 - [Day 10：导数、计算图与 autograd](day10/README.md)
+- [Day 11：线性回归——从数据、损失到参数更新](day11/README.md)
 
 ## 统一执行约定
 
