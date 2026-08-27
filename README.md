@@ -6,6 +6,35 @@
 
 教学数据的标识统一以 `fixture_` 开头；它们只用于学习代码，绝不是模型实验结果。模型权重、真实实验数据、个人输出、虚拟环境和缓存均不进入本仓库。
 
+## 获取当前教材
+
+Draft PR #1 尚未合并到 `main`，所以普通克隆后只看默认分支时，可能暂时看不到教材目录。请显式切换到教材分支：
+
+```bash
+git clone https://github.com/daduchen14/vla-relcomp-textbook.git
+cd vla-relcomp-textbook
+git switch --track origin/content/day01-02
+```
+
+如果已经克隆过仓库：
+
+```bash
+cd "$(git rev-parse --show-toplevel)"
+git fetch origin
+git switch content/day01-02 2>/dev/null || \
+  git switch --track origin/content/day01-02
+git pull --ff-only
+```
+
+看到 `day01/`、`day02/` 和 `COURSE_MAP.md` 就说明位置正确。不要为了“看得到教材”自行合并 `main`。
+
+## 教材的长期上下文
+
+- [`COURSE_MAP.md`](COURSE_MAP.md)：70 天逐日标题、依赖、产物与完成状态；
+- [`AUTHORING_RULES.md`](AUTHORING_RULES.md)：每天的固定结构、代码和资料标准；
+- [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md)：学习者画像、冻结研究问题、实验主线与算力边界；
+- [`AGENTS.md`](AGENTS.md)：写作、中断恢复、Git 和禁止事项。
+
 ## 70 天、8 阶段
 
 | 阶段 | 天数 | 核心内容 |

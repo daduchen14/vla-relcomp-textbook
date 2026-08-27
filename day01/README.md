@@ -99,12 +99,12 @@ cd "$(git rev-parse --show-toplevel)"
 - **分支**：指向某条版本历史末端的名称；
 - **GitHub**：可以保存远端 Git 仓库、协作和展示的网络服务，不是 Git 本身。
 
-本课程把 70 天教材放在独立教学分支，并让它与冻结教材目录并列。Day 1 只需要会读取分支名和工作区状态，不做提交、合并或推送。
+本课程把 70 天教材放在独立教材仓库的教学分支。Day 1 只需要会读取分支名和工作区状态，不做提交、合并或推送。
 
 `git status --short --branch` 的第一行可能形如：
 
 ```text
-## tutorial-70d-day01-02
+## content/day01-02
 ```
 
 `##` 后面是当前分支名。以后你看到 `main` 时也不要自行改它；学习练习全部写入课程指定的个人输出目录。
@@ -156,7 +156,7 @@ echo $?
 从仓库根目录运行：
 
 ```bash
-find VLA-RelComp_70天教科书 -maxdepth 3 -type f | sort
+find . -maxdepth 3 -type f -not -path './.git/*' | sort
 ```
 
 今天重点是：
