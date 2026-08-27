@@ -53,6 +53,7 @@ git pull --ff-only
 - [Day 1：终端、项目目录与第一段 Python 程序](day01/README.md)
 - [Day 2：Python 数据结构、CSV/JSON 与第一份实验记录程序](day02/README.md)
 - [Day 3：函数、模块、路径与可测试的数据校验](day03/README.md)
+- [Day 4：Git 提交、分支、差异与可恢复实验](day04/README.md)
 
 ## 统一执行约定
 
