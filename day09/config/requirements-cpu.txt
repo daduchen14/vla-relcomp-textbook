@@ -1,0 +1,4 @@
+# Day 9 在 macOS arm64 / Python 3.14 的免费本地实测直接依赖。
+# 这是教学 CPU 环境锁定，不代表后续 VLA-Arena/Linux/CUDA 的依赖锁。
+numpy==2.5.2
+torch==2.13.0

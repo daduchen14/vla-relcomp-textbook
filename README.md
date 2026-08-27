@@ -58,6 +58,7 @@ git pull --ff-only
 - [Day 6：Python 环境、包、依赖锁定与异常](day06/README.md)
 - [Day 7：NumPy、数组、图像和机器人状态](day07/README.md)
 - [Day 8：episode、step、success 与实验目录闭环](day08/README.md)
+- [Day 9：Tensor、shape、dtype 与 device](day09/README.md)
 
 ## 统一执行约定
 
