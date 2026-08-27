@@ -1,33 +1,38 @@
-# VLA-RelComp 教材仓库长期规则
+# AGENTS.md — VLA-RelComp 教材 V2
 
-本文件适用于本仓库全部目录。接手者必须先阅读本文件，再阅读 `COURSE_MAP.md`、`AUTHORING_RULES.md`、`PROJECT_CONTEXT.md` 和最新 Git 提交。
+## 唯一课程路线
 
-## 唯一任务
+课程采用项目驱动的 70 天、8 阶段主线。Day 0 不计天数，用于诊断与跳过；`foundation_library/F01–F18` 是按需补习库，不是主线前置课，也不计入主线完成天数。
 
-连续完成 Day 1–70 教科书 V1，使接近零基础的学习者最终能够独立完成 VLA-RelComp。已有研究决策全部冻结；本仓库只新增或改进教材、教学代码、配置与 `fixture_` 教学数据。
+任何后续作者都不得：恢复旧 COURSE_MAP、从旧 Day 19 续写、把 F01–F18 重新排列成必修连续课程，或把样章存在误报为学习者已完成 Day 3。
 
-## 不可违反的边界
+## 研究与版本真相
 
-- 不修改、覆盖或向旧研究仓库提交内容。
-- 不重新开展选题审计、复核、闸门或可移植性工作，也不创建对应报告。
-- 不创建“待用户执行”标签文件；无法本地运行的 GPU 步骤在正文中诚实标成“未在当前环境运行”。
-- 不自动合并或直接修改远端 `main`，不 force push，不改写历史。
-- 不购买、租用或启动收费资源；模型权重、真实数据、密钥、缓存、大日志和视频不入库。
-- 合成数据 ID 必须以 `fixture_` 开头，且不得表述为真实 VLA 成绩。
-- 不编造 GPU、VLA-Arena、模型推理、训练或真实实验输出。
+- 研究目标以 `25_正式项目决策D1_VLA-RelComp.md` 为最高项目依据。
+- 上游仓库：`https://github.com/PKU-Alignment/VLA-Arena.git`。
+- 锁定 commit：`babe582ebffc82b979b77964a7e56417d02f63a4`。
+- 目标 suite 显示名：`PrepositionCombinations`；registry 名：`extrapolation_preposition_combinations`。
+- 研究策略是行为级诊断，以及证据触发的唯一最小 L0-only 修复；L1/L2 保持为测试。
 
-## 连续写作与版本纪律
+不得修改研究仓库、上游 checkout 或教材 `main`，不得伪造 VLA-Arena、MuJoCo、模型或 GPU 运行结果。
 
-1. 使用现有教材分支和 Draft PR #1。
-2. 每完成一天，更新 `COURSE_MAP.md` 状态，运行当天免费可运行的检查，只暂存该天和课程地图的明确路径，提交并推送。
-3. 每完成一个阶段，更新根 `README.md` 索引并做轻量一致性检查；这不是研究审计。
-4. 普通教学取舍由作者自行决定，不等待逐日确认。
-5. 中断恢复时，从 `COURSE_MAP.md` 中第一个未完成 Day 继续。
+## 主线每日强制结构
 
-## 允许暂停的情况
+每个 mainline Day 必须严格按以下顺序：
 
-仅在 GitHub 登录/推送权限失效、需要付费 GPU、需要删除/覆盖/合并 `main`，或冻结资料存在会改变研究目标的实质冲突时询问用户。技术细节暂时不确定时，在相应正文标注“技术待后续核验”，继续其余课程。
+1. 真实项目产物
+2. 当前卡点
+3. 前置诊断
+4. 即时知识
+5. 成熟材料处方
+6. 最小实验
+7. 真实 VLA-Arena 操作
+8. 独立挑战
+9. 验收 rubric
+10. 证据复盘
 
-## 完成定义
+答案必须放入 `shared/answer_keys/`，正文不能直接展示独立挑战答案。教学代码优先使用免费、本地、确定性 fixture；真实操作与 fixture 证据必须分栏。
 
-只有 Day 1–70 均完整、索引齐全、免费本地代码完成 smoke test、GPU 内容诚实标注、全部提交推送、Draft PR 更新、`main` 未合并且工作区干净，才可宣布 V1 完成。
+## 当前边界
+
+本轮只允许课程 V2 迁移、Day 0 和 `mainline/day03` 样章。不要自动补写 mainline Day 1、Day 2 或 Day 4–70。修改前阅读 [AUTHORING_RULES.md](AUTHORING_RULES.md)、[PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) 与 [COURSE_MAP.md](COURSE_MAP.md)。

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "allowed_status": ["untested", "pass", "needs_review"],
+  "routes": [
+    {"id": "F01", "entry_task": 1, "topic": "终端与 Python", "path": "foundation_library/f01_terminal_python/README.md"},
+    {"id": "F02", "entry_task": 2, "topic": "CSV 与 JSON", "path": "foundation_library/f02_csv_json/README.md"},
+    {"id": "F03", "entry_task": 2, "topic": "函数、模块与测试", "path": "foundation_library/f03_modules_testing/README.md"},
+    {"id": "F04", "entry_task": 3, "topic": "Git", "path": "foundation_library/f04_git/README.md"},
+    {"id": "F05", "entry_task": 1, "topic": "Linux 与进程", "path": "foundation_library/f05_linux_processes/README.md"},
+    {"id": "F06", "entry_task": 1, "topic": "环境与依赖", "path": "foundation_library/f06_environments_dependencies/README.md"},
+    {"id": "F07", "entry_task": 4, "topic": "NumPy observation", "path": "foundation_library/f07_numpy_observations/README.md"},
+    {"id": "F08", "entry_task": 5, "topic": "episode evaluator", "path": "foundation_library/f08_episode_evaluator/README.md"},
+    {"id": "F09", "entry_task": 4, "topic": "Tensor", "path": "foundation_library/f09_tensors/README.md"},
+    {"id": "F10", "entry_task": "deferred-training", "topic": "autograd", "path": "foundation_library/f10_autograd/README.md"},
+    {"id": "F11", "entry_task": "deferred-training", "topic": "训练闭环", "path": "foundation_library/f11_linear_regression/README.md"},
+    {"id": "F12", "entry_task": "deferred-model", "topic": "Module 与 state_dict", "path": "foundation_library/f12_module_state_dict/README.md"},
+    {"id": "F13", "entry_task": "deferred-training", "topic": "optimizer 与过拟合", "path": "foundation_library/f13_optimizer_overfitting/README.md"},
+    {"id": "F14", "entry_task": "deferred-data", "topic": "DataLoader", "path": "foundation_library/f14_dataloader/README.md"},
+    {"id": "F15", "entry_task": "deferred-model", "topic": "CNN", "path": "foundation_library/f15_cnn/README.md"},
+    {"id": "F16", "entry_task": "deferred-model", "topic": "token 与 embedding", "path": "foundation_library/f16_tokens_embeddings/README.md"},
+    {"id": "F17", "entry_task": "deferred-model", "topic": "attention", "path": "foundation_library/f17_attention/README.md"},
+    {"id": "F18", "entry_task": "deferred-model", "topic": "Transformer block", "path": "foundation_library/f18_transformer_block/README.md"}
+  ]
+}

@@ -1,120 +1,138 @@
-# VLA-RelComp 70 天课程地图
+# VLA-RelComp 课程 V2：70 天、8 阶段项目主线
 
-状态记号：`✅ 完成` 表示当天教材、代码和本地适用检查已提交；`⬜ 未完成` 表示尚待编写。每天均遵守 `AUTHORING_RULES.md`，状态只能在当天验收并提交时改为完成。
+Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不计入主线进度。当前主线完成数为 `0 / 70`；`Day 3 🧪` 只表示代表性样章已编写，不表示学习者已完成。
 
-## 阶段 1：编程与实验基础（Day 1–8）
+状态：`⬜ 未编写` · `🧪 样章已编写` · `✅ 学习者验收通过`。
 
-| Day | 状态 | 标题 | 前置知识 | 当天核心产物 |
+## Day 0：诊断与跳过
+
+[Day 0](mainline/day00_diagnostic/README.md) 用五类入口任务和延迟诊断把失败项路由到 F01–F18；全部通过者直接进入 Day 1。
+
+## 阶段 1：开工并得到首个 episode（Day 1–7）
+
+| Day | 真实项目任务 | 即时补充知识 | 当天必须产物 | 状态 |
 |---:|---|---|---|---|
-| 1 | ✅ 完成 | 终端、项目目录与第一段 Python 程序 | 无 | `first_run.py` 与运行记录 |
-| 2 | ✅ 完成 | Python 数据结构、CSV/JSON 与实验记录 | Day 1 | episode 规范 CSV 与 JSON 汇总 |
-| 3 | ✅ 完成 | 函数、模块、路径与可测试的数据校验 | Day 2 字典/列表 | `episode_schema.py`、最小单元测试 |
-| 4 | ✅ 完成 | Git 提交、分支、差异与可恢复实验 | Day 1 终端 | 练习仓库、提交清单与 diff 解读 |
-| 5 | ✅ 完成 | Linux 文件、进程、环境变量与退出码 | Day 1–4 | `system_snapshot.py` 与进程练习 |
-| 6 | ✅ 完成 | Python 环境、包、依赖锁定与异常 | Python 脚本 | 隔离环境、依赖清单、异常示例 |
-| 7 | ✅ 完成 | NumPy、数组、图像和机器人状态 | Python 容器/循环 | 合成 RGB/state/action 数组 |
-| 8 | ✅ 完成 | episode、step、success 与实验目录闭环 | Day 1–7 | CPU mini evaluator 与证据目录 |
+| 1 | 从锁定 commit 克隆并画出最小系统地图 | 终端、Git、仓库根、版本锁定 | `project_map.md`、commit 证明、suite 定位 | ⬜ 未编写 |
+| 2 | 从 CLI/YAML 追踪到 PrepositionCombinations 任务列表 | 模块/路径、YAML、配置覆盖、容器 | `config_trace.md`、只读 suite manifest | ⬜ 未编写 |
+| 3 | 沿真实 evaluator 追踪 observation→policy→action→step→success | shape/dtype、episode/step、函数调用 | observation 摘要工具、真实调用链图 | 🧪 [样章已编写](mainline/day03/README.md) |
+| 4 | 在 Linux/NVIDIA 环境完成自检和可重复 episode | 进程、退出码、CUDA、headless MuJoCo | 命令、日志、视频/帧、registry；Gate 1 | ⬜ 未编写 |
+| 5 | 在真实模型 adapter 中解释 VLA 输入输出 | inference、device、图像/state/指令、动作 | 模型接口卡、离线 shape/dtype 检查 | ⬜ 未编写 |
+| 6 | 跑 SmolVLA 单任务最小 pilot | VLM 条件、action chunk、checkpoint | SmolVLA pilot 与故障边界 | ⬜ 未编写 |
+| 7 | 跑 OpenVLA/官方较强模型最小 pilot并同口径比较 | action token、连续动作、seed | 第二模型 pilot、比较表 | ⬜ 未编写 |
 
-## 阶段 2：深度学习与 PyTorch（Day 9–18）
+**Gate 1（Day 4）：** 从新终端完成一个 episode 和完整证据包，口述 observation、action、success 与基础设施错误；环境启动不等于 episode 成功。
 
-| Day | 状态 | 标题 | 前置知识 | 当天核心产物 |
+## 阶段 2：完成 pilot 与行为诊断雏形（Day 8–14）
+
+| Day | 真实项目任务 | 即时补充知识 | 当天必须产物 | 状态 |
 |---:|---|---|---|---|
-| 9 | ✅ 完成 | Tensor、shape、dtype 与 device | NumPy | tensor 观察实验与 shape 检查器 |
-| 10 | ✅ 完成 | 导数、梯度与 autograd | 高中函数、Tensor | 手算/自动梯度对照脚本 |
-| 11 | ✅ 完成 | 线性回归：从数据到损失 | 梯度 | 从零线性回归与训练曲线数据 |
-| 12 | ✅ 完成 | `nn.Module`、参数与前向传播 | 线性回归 | 最小网络和模型摘要 |
-| 13 | ✅ 完成 | 优化器、batch、epoch 与过拟合 | 网络/损失 | 训练循环和对照实验 |
-| 14 | ✅ 完成 | Dataset、DataLoader 与可复现随机性 | batch/seed | fixture 数据集与加载器 |
-| 15 | ✅ 完成 | 图像张量、卷积和 CNN | Tensor/网络 | 最小图像分类 CNN |
-| 16 | ✅ 完成 | 序列、token、embedding 与位置 | 线性层 | 字符 token 化和 embedding |
-| 17 | ✅ 完成 | 注意力：查询、键、值 | 矩阵乘法/embedding | 单头 self-attention |
-| 18 | ⬜ 未完成 | Transformer block 最小实现 | 注意力/网络 | CPU Transformer 与 shape 测试 |
+| 8 | 生成 L0/L1/L2 × task × seed pilot 矩阵并选择主诊断模型 | OOD、分母、选择规则 | pilot manifest、选择结论；Gate 2 | ⬜ 未编写 |
+| 9 | 读取真实 CBDDL/BDDL 并解释 init/object/goal | 谓词、对象/区域、声明式任务 | 5×3 任务结构表、解析脚本 | ⬜ 未编写 |
+| 10 | 找到并验证真实 success predicate | predicate、terminated/truncated、阈值 | success 路径图、predicate 检查器 | ⬜ 未编写 |
+| 11 | 从仿真状态识别目标物、参照物和关系 | 坐标/位姿、对象 ID、特权边界 | object/relation state snapshot | ⬜ 未编写 |
+| 12 | 实现接触、抬升、参照接近、终态关系四段事件日志 | 时序、阈值、假阳/假阴 | stage event logger 与测试 | ⬜ 未编写 |
+| 13 | 构造第一组单因素匹配反事实 | 控制变量、pair ID、seed/init 固定 | pair manifest、配对校验器 | ⬜ 未编写 |
+| 14 | 实现最小语言或视觉提示 oracle pilot | 干预、恢复率、因果边界、泄漏 | oracle pilot、诊断口述；Gate 3 | ⬜ 未编写 |
 
-## 阶段 3：多模态与 VLA 原理（Day 19–27）
+**Gate 2（Day 8）：** 对陌生 pilot 结果判断可用模型、有效分母与下一步最小实验。
+**Gate 3（Day 14）：** 对陌生失败 episode 独立运行四段探针，提出两个替代解释并设计单因素干预。
 
-| Day | 状态 | 标题 | 前置知识 | 当天核心产物 |
+## 阶段 3：建立可信基线（Day 15–25）
+
+| Day | 真实项目任务 | 即时补充知识 | 当天必须产物 | 状态 |
 |---:|---|---|---|---|
-| 19 | ⬜ 未完成 | 从像素到视觉 token | CNN/Transformer | patch embedding 可视化数据 |
-| 20 | ⬜ 未完成 | 文本 token、提示模板与掩码 | token/attention | 指令编码器与 mask 实验 |
-| 21 | ⬜ 未完成 | 多模态融合：图像怎样遇到语言 | 视觉/文本 token | 最小融合模型 |
-| 22 | ⬜ 未完成 | VLM 到 VLA：表示如何变成动作 | 多模态融合 | fixture VLA 前向数据流 |
-| 23 | ⬜ 未完成 | 机器人 observation、state 与 action | NumPy/Tensor | 观测动作 schema 与检查器 |
-| 24 | ⬜ 未完成 | 行为克隆与监督式动作学习 | 训练循环/VLA | fixture 行为克隆训练 |
-| 25 | ⬜ 未完成 | 连续动作、归一化与 7 维控制 | 回归/动作 | 动作归一化往返测试 |
-| 26 | ⬜ 未完成 | action chunk 与时序预测 | 序列/动作 | chunk 构造与滚动窗口 |
-| 27 | ⬜ 未完成 | 闭环控制、误差累积与失败来源 | episode/VLA | fixture 闭环模拟器 |
+| 15 | 冻结代码、模型、数据、任务和运行口径 | revision、快照、可复现性 | baseline protocol lock | ⬜ 未编写 |
+| 16 | 建立 run/episode registry 与证据命名 | schema、主键、缺失值 | registry 生成器、schema 测试 | ⬜ 未编写 |
+| 17 | 构建可恢复批量 evaluator | retry、checkpoint、幂等 | batch runner、resume 状态 | ⬜ 未编写 |
+| 18 | 按任务运行 L0 基线 | task 统计、seed、init state | L0 registry、视频索引 | ⬜ 未编写 |
+| 19 | 按冻结口径运行 L1 | 保留测试、不得调参 | L1 registry | ⬜ 未编写 |
+| 20 | 按冻结口径运行 L2 | 强 OOD、失败分类 | L2 registry | ⬜ 未编写 |
+| 21 | 重跑关键任务验证复现性 | 随机性、多 seed、一致性 | reproducibility 表 | ⬜ 未编写 |
+| 22 | 计算任务级成功率与 Wilson 区间 | 二项计数、区间、宏/微平均 | baseline stats 脚本 | ⬜ 未编写 |
+| 23 | 连接视频、异常和四段事件到 episode | evidence join、异常分类 | evidence index | ⬜ 未编写 |
+| 24 | 同口径比较候选模型并冻结主模型 | 公平比较、L0 样本充分性 | model selection memo | ⬜ 未编写 |
+| 25 | 从空 manifest 复现缩小版基线表 | 端到端复现、证据口述 | reproduction package；Gate 4 | ⬜ 未编写 |
 
-## 阶段 4：VLA-Arena 实战（Day 28–36）
+**Gate 4：** 不看步骤，从新 manifest 跑缩小评测、恢复中断、生成任务级表，并解释 L1/L2 为什么不能选 checkpoint。
 
-| Day | 状态 | 标题 | 前置知识 | 当天核心产物 |
+## 阶段 4：行为级因果诊断（Day 26–35）
+
+| Day | 真实项目任务 | 即时补充知识 | 当天必须产物 | 状态 |
 |---:|---|---|---|---|
-| 28 | ⬜ 未完成 | VLA-Arena 全景、版本与免费静态准备 | Git/Linux/VLA | 上游资产清单与未运行声明 |
-| 29 | ⬜ 未完成 | MuJoCo/仿真世界、坐标与位姿 | 状态/动作 | fixture 位姿计算脚本 |
-| 30 | ⬜ 未完成 | BDDL/CBDDL 任务：init、对象与 goal | 仿真概念 | 教学任务解析器 |
-| 31 | ⬜ 未完成 | PrepositionCombinations 与 L0/L1/L2 | BDDL | task manifest fixture |
-| 32 | ⬜ 未完成 | evaluator 入口与配置数据流 | 模块/配置 | dry-run 配置检查器 |
-| 33 | ⬜ 未完成 | observation 读取与图像/state 检查 | VLA 输入 | 观测摘要工具 |
-| 34 | ⬜ 未完成 | action 适配、步进与终止条件 | 动作/闭环 | fixture 环境步进器 |
-| 35 | ⬜ 未完成 | success predicate 与四段状态事件 | CBDDL/episode | 事件提取器及测试 |
-| 36 | ⬜ 未完成 | 单 episode 运行手册与证据保存 | Day 28–35 | CPU dry-run + GPU 完整命令包 |
+| 26 | 把研究假设变成可观测事件和可证伪预测 | 假设、指标、替代解释 | hypothesis-to-metric 表 | ⬜ 未编写 |
+| 27 | 完善目标接近/接触探针 | 接触、距离、对象选择错误 | target detector、阈值测试 | ⬜ 未编写 |
+| 28 | 完善抓取/抬升探针 | 支撑面、夹爪接触、持续阈值 | lift detector、敏感性图 | ⬜ 未编写 |
+| 29 | 完善搬运到参照区域探针 | 轨迹距离、趋势、错误参照物 | approach detector | ⬜ 未编写 |
+| 30 | 完善终态空间关系探针 | 关系操作定义 | relation detector | ⬜ 未编写 |
+| 31 | 批量构造关系最小反事实对 | matching、pair asymmetry | relation pair set | ⬜ 未编写 |
+| 32 | 批量构造对象组合匹配对 | 混淆因素、组合覆盖 | object-combination pair set | ⬜ 未编写 |
+| 33 | 运行语言规范化 oracle | 结构化三元组、恢复/损伤 | language oracle 结果 | ⬜ 未编写 |
+| 34 | 运行视觉对象提示 oracle | 仿真真值、特权边界、可撤销干预 | visual oracle 结果 | ⬜ 未编写 |
+| 35 | 汇总四段转化、pair asymmetry 和 oracle 效应 | 效应量、结论边界 | diagnosis table；Gate 5 | ⬜ 未编写 |
 
-## 阶段 5：基线实验（Day 37–45）
+**Gate 5：** 对未见 pair 先预测，再运行探针和干预；允许结论为“证据不足”，不得强造修复故事。
 
-| Day | 状态 | 标题 | 前置知识 | 当天核心产物 |
+## 阶段 5：证据触发的唯一最小修复（Day 36–50）
+
+| Day | 真实项目任务 | 即时补充知识 | 当天必须产物 | 状态 |
 |---:|---|---|---|---|
-| 37 | ⬜ 未完成 | baseline、random policy 与 E0 对照 | evaluator | random baseline 配置/记录器 |
-| 38 | ⬜ 未完成 | SmolVLA 架构、模型卡与加载路径 | VLA/PyTorch | 静态配置与 GPU 运行手册 |
-| 39 | ⬜ 未完成 | SmolVLA 单任务 pilot | Day 36/38 | pilot 命令、证据模板 |
-| 40 | ⬜ 未完成 | OpenVLA 架构与推理接口 | VLA/模型加载 | 静态接口映射与运行手册 |
-| 41 | ⬜ 未完成 | OpenVLA 单任务 pilot 与模型选择 | Day 39/40 | 可比 pilot 模板 |
-| 42 | ⬜ 未完成 | seed、init state 与重复实验 | 实验记录 | trial matrix 生成器 |
-| 43 | ⬜ 未完成 | L0 基线计划与任务级汇总 | L0/统计基础 | L0 manifest 与汇总脚本 |
-| 44 | ⬜ 未完成 | L1/L2 保留测试与数据泄漏防线 | L0/L1/L2 | split 守卫器与测试 |
-| 45 | ⬜ 未完成 | 基线总表、视频索引与异常分类 | Day 37–44 | baseline report builder |
+| 36 | 用诊断证据选择唯一修复或停止修复 | 决策矩阵、风险/收益、负结果 | repair decision | ⬜ 未编写 |
+| 37 | 构建严格 L0-only 数据和泄漏测试 | 划分、数据血缘 | L0 dataset builder | ⬜ 未编写 |
+| 38 | 实现被选中的最小模块 | 模块边界、接口、回归测试 | 单一 repair module | ⬜ 未编写 |
+| 39 | 构造平衡/对比/规范化样本 | sampling、pair 标签、质量 | training pairs | ⬜ 未编写 |
+| 40 | 定义损失、可训练与冻结参数 | loss、梯度、parameter groups | trainability report | ⬜ 未编写 |
+| 41 | 配置 LoRA/轻量微调、显存与 checkpoint | batch、累积、混合精度、LoRA | bounded train config | ⬜ 未编写 |
+| 42 | 用极小数据 one-batch overfit | 闭环、loss、数据/代码诊断 | overfit smoke evidence | ⬜ 未编写 |
+| 43 | 运行短训练 pilot并检查恢复 | 日志、早停、resume | training pilot | ⬜ 未编写 |
+| 44 | 处理稳定性并冻结训练配置 | 数值稳定、seed、异常 | frozen recipe | ⬜ 未编写 |
+| 45 | 正式训练 seed 1 | 资源记录、测试集隔离 | checkpoint 1 | ⬜ 未编写 |
+| 46 | 训练 seed 2–3 或预算内重复 | 重复、方差 | checkpoints 2–3 | ⬜ 未编写 |
+| 47 | 评测 L0 保持 | catastrophic damage、保持率 | L0 retention | ⬜ 未编写 |
+| 48 | 首次评测 L1/L2 泛化 | 保留测试、预注册分析 | OOD results | ⬜ 未编写 |
+| 49 | 做最小消融和成本匹配对照 | ablation、算力公平、单变量 | ablation table | ⬜ 未编写 |
+| 50 | 继续、回退或接受负结果 | go/no-go、有限结论 | repair conclusion；Gate 6 | ⬜ 未编写 |
 
-## 阶段 6：行为级失效诊断（Day 46–56）
+**Gate 6：** 从原始 registry 重建基线—修复—消融比较，检查 L0 保持、L1/L2 改善和多 seed 稳定，禁止只选最好一次。
 
-| Day | 状态 | 标题 | 前置知识 | 当天核心产物 |
+## 阶段 6：最终实验与证据锁定（Day 51–60）
+
+| Day | 真实项目任务 | 即时补充知识 | 当天必须产物 | 状态 |
 |---:|---|---|---|---|
-| 46 | ⬜ 未完成 | 从总体失败到四段可观测链 | 状态事件 | failure taxonomy |
-| 47 | ⬜ 未完成 | 接触与目标选择诊断 | 坐标/事件 | target contact detector |
-| 48 | ⬜ 未完成 | 抓取、抬升与阈值敏感性 | 事件/控制变量 | lift detector 对照 |
-| 49 | ⬜ 未完成 | 搬运、参照接近与终态关系 | 空间关系 | approach/relation 指标 |
-| 50 | ⬜ 未完成 | 最小反事实与控制变量 | 实验设计 | pair manifest validator |
-| 51 | ⬜ 未完成 | 空间关系匹配对的构造 | BDDL/反事实 | relation pairs fixture |
-| 52 | ⬜ 未完成 | 对象组合匹配对与混淆因素 | task manifest | object pairs fixture |
-| 53 | ⬜ 未完成 | 语言 oracle：规范化而非提示词魔法 | VLA 指令/反事实 | language oracle transform |
-| 54 | ⬜ 未完成 | 视觉对象提示 oracle 与特权信息边界 | 图像/grounding | visual oracle fixture |
-| 55 | ⬜ 未完成 | Wilson 区间、恢复率与损伤率 | Python/概率直觉 | 统计脚本与手算对照 |
-| 56 | ⬜ 未完成 | McNemar、失败案例与诊断结论 | 配对结果 | diagnosis report builder |
+| 51 | 冻结最终矩阵与停止规则 | preregistration、版本冻结 | final manifest | ⬜ 未编写 |
+| 52 | 干净重跑主基线 | clean-room、缓存污染 | final baseline data | ⬜ 未编写 |
+| 53 | 干净重跑修复模型 | 同配置、checkpoint provenance | final repair data | ⬜ 未编写 |
+| 54 | 重跑关键反事实对 | pair 完整性、缺失处理 | final pair data | ⬜ 未编写 |
+| 55 | 重跑关键 oracle | 诊断与最终方法分栏 | final oracle data | ⬜ 未编写 |
+| 56 | 冻结四段事件统计 | conversion rate、阶段漏斗 | stage metrics | ⬜ 未编写 |
+| 57 | 完成 Wilson、恢复/损伤率与配对检验 | 效应量、区间、McNemar 边界 | statistics script | ⬜ 未编写 |
+| 58 | 选择代表案例并建立视频证据表 | 避免 cherry-pick | casebook | ⬜ 未编写 |
+| 59 | 汇总时间、显存、失败运行和成本 | 系统指标、实验分母 | resource table | ⬜ 未编写 |
+| 60 | 冻结结果与允许的论文主张 | claim-evidence、负结果 | results lock；Gate 7 | ⬜ 未编写 |
 
-## 阶段 7：最小修复（Day 57–65）
+**Gate 7：** 随机抽三条主张，指出对应表格、原始 episode、版本和不能推出的更强结论。
 
-| Day | 状态 | 标题 | 前置知识 | 当天核心产物 |
+## 阶段 7：论文式成品（Day 61–66）
+
+| Day | 真实项目任务 | 即时补充知识 | 当天必须产物 | 状态 |
 |---:|---|---|---|---|
-| 57 | ⬜ 未完成 | 用证据选择唯一最小修复 | 诊断结论 | decision matrix（教学模板） |
-| 58 | ⬜ 未完成 | L0 训练集构造与泄漏测试 | split/行为克隆 | L0-only dataset builder |
-| 59 | ⬜ 未完成 | 关系规范化修复路线 | language oracle | normalization module |
-| 60 | ⬜ 未完成 | 对比式 L0 样本与损失 | 训练/配对 | contrastive fixture pipeline |
-| 61 | ⬜ 未完成 | 轻量微调配置、显存与 checkpoint | PyTorch/GPU 概念 | 训练配置与 CPU dry-run |
-| 62 | ⬜ 未完成 | 训练日志、早停与失败恢复 | 训练循环/split | checkpoint/log manager |
-| 63 | ⬜ 未完成 | 消融设计：只改变一个组件 | 对照实验 | ablation matrix |
-| 64 | ⬜ 未完成 | 重新评测 L0 保持与 L1/L2 泛化 | 基线/统计 | evaluation matrix |
-| 65 | ⬜ 未完成 | 正结果、负结果与最小修复结论 | 全阶段 | repair report builder |
+| 61 | 清理数据、脚本和可追溯索引 | tidy data、原始数据不可覆盖 | release candidate data | ⬜ 未编写 |
+| 62 | 生成最终表格 | caption、计数、区间、加粗规则 | paper tables | ⬜ 未编写 |
+| 63 | 生成阶段漏斗、pair 和干预图 | 诚实可视化、误差条 | paper figures | ⬜ 未编写 |
+| 64 | 写问题、方法和实验设置 | 研究问题、操作定义 | methods draft | ⬜ 未编写 |
+| 65 | 写结果、诊断与修复结论 | 证据顺序、有限语言 | results draft | ⬜ 未编写 |
+| 66 | 写相关工作、限制、伦理和负结果 | scope、外推边界 | complete report draft | ⬜ 未编写 |
 
-## 阶段 8：项目收尾（Day 66–70）
+## 阶段 8：复现与答辩（Day 67–70）
 
-| Day | 状态 | 标题 | 前置知识 | 当天核心产物 |
+| Day | 真实项目任务 | 即时补充知识 | 当天必须产物 | 状态 |
 |---:|---|---|---|---|
-| 66 | ⬜ 未完成 | 冻结最终实验矩阵与复现清单 | 全部实验 | final manifest validator |
-| 67 | ⬜ 未完成 | 从 CSV 到可信表格与图形 | 统计/记录 | figure/table scripts |
-| 68 | ⬜ 未完成 | 论文式报告：方法、结果与限制 | 图表/诊断 | 报告初稿模板 |
-| 69 | ⬜ 未完成 | README、环境说明与一键复现入口 | Git/Linux/实验 | reproduction guide |
-| 70 | ⬜ 未完成 | 答辩故事、现场演示与最终自检 | 全课程 | slides outline、口述稿、V1 清单 |
+| 67 | fresh clone 重建环境并复现最小表格 | lockfile、缓存、文档可执行性 | reproduction log | ⬜ 未编写 |
+| 68 | 完成 README、一键入口和演示脚本 | 信息架构、失败回退 | public project entry | ⬜ 未编写 |
+| 69 | 完成答辩故事、问题库和 10 分钟演示 | 口述结构、追问、诚实边界 | slides、口述稿、Q&A | ⬜ 未编写 |
+| 70 | 不看答案复写核心模块并复现关键证据 | 迁移、代码所有权、最终自检 | final capstone；Gate 8 | ⬜ 未编写 |
 
-## 恢复点
+**Gate 8：** 从 fresh clone 在限时内复现关键表、定位失败 episode、口述四段诊断和最小修复，并现场改一个参数解释影响；不能由 Agent 代做。
 
-- 已完成最后一天：Day 17。
-- 下一天：Day 18。
-- 当前阶段：阶段 2（深度学习与 PyTorch）。
-- 远端工作位置：现有教材分支与 Draft PR #1；不得自动合并 `main`。
+## Gate 通用验收
+
+每个 Gate 必须使用新输入，明确允许/禁止材料，提供机器命令、产物、口述 rubric 和“通过 / 补做 / 停止扩张”三种结论；参考答案只在 `shared/answer_keys/`。
