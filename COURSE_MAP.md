@@ -16,7 +16,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 2 | 从 CLI/YAML 追踪到 PrepositionCombinations 任务列表 | 模块/路径、YAML、配置覆盖、容器 | `config_trace.md`、只读 suite manifest | 📘 [教材已编写](mainline/day02/README.md) |
 | 3 | 沿真实 evaluator 追踪 observation→policy→action→step→success | shape/dtype、episode/step、函数调用 | observation 摘要工具、真实调用链图 | 🧪 [样章已编写](mainline/day03/README.md) |
 | 4 | 在 Linux/NVIDIA 环境完成自检和可重复 episode | 进程、退出码、CUDA、headless MuJoCo | 命令、日志、视频/帧、registry；Gate 1 | 📘 [教材已编写](mainline/day04/README.md)；学习者 Gate 未通过 |
-| 5 | 在真实模型 adapter 中解释 VLA 输入输出 | inference、device、图像/state/指令、动作 | 模型接口卡、离线 shape/dtype 检查 | ⬜ 未编写 |
+| 5 | 在真实模型 adapter 中解释 VLA 输入输出 | inference、device、图像/state/指令、动作 | 模型接口卡、离线 shape/dtype 检查 | 📘 [教材已编写](mainline/day05/README.md) |
 | 6 | 跑 SmolVLA 单任务最小 pilot | VLM 条件、action chunk、checkpoint | SmolVLA pilot 与故障边界 | ⬜ 未编写 |
 | 7 | 跑 OpenVLA/官方较强模型最小 pilot并同口径比较 | action token、连续动作、seed | 第二模型 pilot、比较表 | ⬜ 未编写 |
 

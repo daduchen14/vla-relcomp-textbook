@@ -1,0 +1,11 @@
+{
+  "form_id": "day05_B_changed_shape_and_rotation",
+  "task": "pick the tomato on the cabinet and place it next to the vase",
+  "raw": {
+    "agentview_image": {"dtype": "uint8", "values": [[[9, 8, 7], [6, 5, 4]], [[3, 2, 1], [0, 1, 2]], [[3, 4, 5], [6, 7, 8]]]},
+    "robot0_eye_in_hand_image": {"dtype": "uint8", "values": [[[5, 10, 15]], [[20, 25, 30]]]},
+    "robot0_eef_pos": {"dtype": "float64", "values": [-0.4, 0.5, 0.6]},
+    "robot0_eef_quat": {"dtype": "float64", "values": [0.0, 0.70710678, 0.0, 0.70710678]},
+    "robot0_gripper_qpos": {"dtype": "float64", "values": [-0.01, 0.01]}
+  }
+}
