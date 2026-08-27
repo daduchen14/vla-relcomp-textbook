@@ -1,0 +1,13 @@
+{
+  "pair_name": "l1t1_surface_paraphrase_challenge",
+  "factor": "instruction_surface",
+  "task_selector": {"level": 1, "task_id": 1},
+  "instruction_b": "Pick up the tomato beside the cereal, then place it atop the porcelain bowl resting on the cutting board.",
+  "model_id": "diagnostic_model_placeholder",
+  "model_revision": "fill_after_gate2_selection",
+  "seed": 13002,
+  "init_state_index": 4,
+  "inference_config_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "order_seed": 733,
+  "source_kind": "planned_matched_pair_challenge_not_model_result"
+}
