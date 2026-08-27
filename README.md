@@ -55,6 +55,7 @@ git pull --ff-only
 - [Day 3：函数、模块、路径与可测试的数据校验](day03/README.md)
 - [Day 4：Git 提交、分支、差异与可恢复实验](day04/README.md)
 - [Day 5：Linux 文件、进程、环境变量与退出码](day05/README.md)
+- [Day 6：Python 环境、包、依赖锁定与异常](day06/README.md)
 
 ## 统一执行约定
 
