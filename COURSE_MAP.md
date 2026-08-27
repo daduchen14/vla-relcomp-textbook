@@ -26,7 +26,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 
 | Day | 真实项目任务 | 即时补充知识 | 当天必须产物 | 状态 |
 |---:|---|---|---|---|
-| 8 | 生成 L0/L1/L2 × task × seed pilot 矩阵并选择主诊断模型 | OOD、分母、选择规则 | pilot manifest、选择结论；Gate 2 | ⬜ 未编写 |
+| 8 | 生成 L0/L1/L2 × task × seed pilot 矩阵并选择主诊断模型 | OOD、分母、选择规则 | pilot manifest、选择结论；Gate 2 | 📘 [教材已编写](mainline/day08/README.md)；真实矩阵与学习者 Gate 待执行 |
 | 9 | 读取真实 CBDDL/BDDL 并解释 init/object/goal | 谓词、对象/区域、声明式任务 | 5×3 任务结构表、解析脚本 | ⬜ 未编写 |
 | 10 | 找到并验证真实 success predicate | predicate、terminated/truncated、阈值 | success 路径图、predicate 检查器 | ⬜ 未编写 |
 | 11 | 从仿真状态识别目标物、参照物和关系 | 坐标/位姿、对象 ID、特权边界 | object/relation state snapshot | ⬜ 未编写 |
