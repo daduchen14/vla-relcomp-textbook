@@ -39,7 +39,7 @@ git pull --ff-only
 
 | 阶段 | 天数 | 核心内容 |
 |---|---:|---|
-| 1. 编程与实验基础 | Day 1–8 | 终端、Git、Python、CSV/JSON、调试、实验目录 |
+| 1. 编程与实验基础（已完成） | Day 1–8 | 终端、Git、Python、CSV/JSON、调试、实验目录 |
 | 2. 深度学习与 PyTorch | Day 9–18 | 张量、梯度、网络、优化器、CNN、Transformer 最小实现 |
 | 3. 多模态与 VLA 原理 | Day 19–27 | token、视觉编码、VLM、模仿学习、动作块、闭环控制 |
 | 4. VLA-Arena 实战 | Day 28–36 | BDDL、MuJoCo、环境、观测、动作、success、单 episode |
@@ -57,6 +57,7 @@ git pull --ff-only
 - [Day 5：Linux 文件、进程、环境变量与退出码](day05/README.md)
 - [Day 6：Python 环境、包、依赖锁定与异常](day06/README.md)
 - [Day 7：NumPy、数组、图像和机器人状态](day07/README.md)
+- [Day 8：episode、step、success 与实验目录闭环](day08/README.md)
 
 ## 统一执行约定
 

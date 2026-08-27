@@ -13,7 +13,7 @@
 | 5 | ✅ 完成 | Linux 文件、进程、环境变量与退出码 | Day 1–4 | `system_snapshot.py` 与进程练习 |
 | 6 | ✅ 完成 | Python 环境、包、依赖锁定与异常 | Python 脚本 | 隔离环境、依赖清单、异常示例 |
 | 7 | ✅ 完成 | NumPy、数组、图像和机器人状态 | Python 容器/循环 | 合成 RGB/state/action 数组 |
-| 8 | ⬜ 未完成 | episode、step、success 与实验目录闭环 | Day 1–7 | CPU mini evaluator 与证据目录 |
+| 8 | ✅ 完成 | episode、step、success 与实验目录闭环 | Day 1–7 | CPU mini evaluator 与证据目录 |
 
 ## 阶段 2：深度学习与 PyTorch（Day 9–18）
 
@@ -114,7 +114,7 @@
 
 ## 恢复点
 
-- 已完成最后一天：Day 7。
-- 下一天：Day 8。
-- 当前阶段：阶段 1（编程与实验基础）。
+- 已完成最后一天：Day 8。
+- 下一天：Day 9。
+- 当前阶段：阶段 2（深度学习与 PyTorch）。
 - 远端工作位置：现有教材分支与 Draft PR #1；不得自动合并 `main`。
