@@ -1,0 +1,13 @@
+{
+  "form": "B",
+  "checkpoint_repo": "VLA-Arena/smolvla-vla-arena",
+  "checkpoint_revision": "ef87aa3f97a4feaed69c93b9ed2014bba07acf8a",
+  "suite": "extrapolation_preposition_combinations",
+  "level": 0,
+  "task_id": 3,
+  "seed": 31,
+  "init_state_index": 2,
+  "num_trials": 1,
+  "max_steps": 300,
+  "device": "cuda"
+}

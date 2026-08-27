@@ -17,7 +17,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 3 | 沿真实 evaluator 追踪 observation→policy→action→step→success | shape/dtype、episode/step、函数调用 | observation 摘要工具、真实调用链图 | 🧪 [样章已编写](mainline/day03/README.md) |
 | 4 | 在 Linux/NVIDIA 环境完成自检和可重复 episode | 进程、退出码、CUDA、headless MuJoCo | 命令、日志、视频/帧、registry；Gate 1 | 📘 [教材已编写](mainline/day04/README.md)；学习者 Gate 未通过 |
 | 5 | 在真实模型 adapter 中解释 VLA 输入输出 | inference、device、图像/state/指令、动作 | 模型接口卡、离线 shape/dtype 检查 | 📘 [教材已编写](mainline/day05/README.md) |
-| 6 | 跑 SmolVLA 单任务最小 pilot | VLM 条件、action chunk、checkpoint | SmolVLA pilot 与故障边界 | ⬜ 未编写 |
+| 6 | 跑 SmolVLA 单任务最小 pilot | VLM 条件、action chunk、checkpoint | SmolVLA pilot 与故障边界 | 📘 [教材已编写](mainline/day06/README.md)；真实 GPU pilot 待学习者执行 |
 | 7 | 跑 OpenVLA/官方较强模型最小 pilot并同口径比较 | action token、连续动作、seed | 第二模型 pilot、比较表 | ⬜ 未编写 |
 
 **Gate 1（Day 4）：** 从新终端完成一个 episode 和完整证据包，口述 observation、action、success 与基础设施错误；环境启动不等于 episode 成功。
