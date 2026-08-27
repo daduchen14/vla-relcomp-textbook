@@ -1,0 +1,8 @@
+{
+  "form": "A",
+  "cases": [
+    {"case_id": "on_success", "reference_z": 0.80, "target_z": 0.95, "xy_distance": 0.04, "contact": true, "timeout_done": false},
+    {"case_id": "timeout_failure", "reference_z": 0.80, "target_z": 0.95, "xy_distance": 0.08, "contact": true, "timeout_done": true},
+    {"case_id": "no_contact", "reference_z": 0.80, "target_z": 0.95, "xy_distance": 0.04, "contact": false, "timeout_done": false}
+  ]
+}
