@@ -25,7 +25,7 @@
 | 12 | ✅ 完成 | `nn.Module`、参数与前向传播 | 线性回归 | 最小网络和模型摘要 |
 | 13 | ✅ 完成 | 优化器、batch、epoch 与过拟合 | 网络/损失 | 训练循环和对照实验 |
 | 14 | ✅ 完成 | Dataset、DataLoader 与可复现随机性 | batch/seed | fixture 数据集与加载器 |
-| 15 | ⬜ 未完成 | 图像张量、卷积和 CNN | Tensor/网络 | 最小图像分类 CNN |
+| 15 | ✅ 完成 | 图像张量、卷积和 CNN | Tensor/网络 | 最小图像分类 CNN |
 | 16 | ⬜ 未完成 | 序列、token、embedding 与位置 | 线性层 | 字符 token 化和 embedding |
 | 17 | ⬜ 未完成 | 注意力：查询、键、值 | 矩阵乘法/embedding | 单头 self-attention |
 | 18 | ⬜ 未完成 | Transformer block 最小实现 | 注意力/网络 | CPU Transformer 与 shape 测试 |
@@ -114,7 +114,7 @@
 
 ## 恢复点
 
-- 已完成最后一天：Day 14。
-- 下一天：Day 15。
+- 已完成最后一天：Day 15。
+- 下一天：Day 16。
 - 当前阶段：阶段 2（深度学习与 PyTorch）。
 - 远端工作位置：现有教材分支与 Draft PR #1；不得自动合并 `main`。
