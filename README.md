@@ -65,6 +65,7 @@ git pull --ff-only
 - [Day 13：optimizer、mini-batch、epoch 与过拟合](day13/README.md)
 - [Day 14：Dataset、DataLoader 与可复现随机性](day14/README.md)
 - [Day 15：图像张量、卷积和 CNN](day15/README.md)
+- [Day 16：序列、token、embedding 与位置](day16/README.md)
 
 ## 统一执行约定
 
