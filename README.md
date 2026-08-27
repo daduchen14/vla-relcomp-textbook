@@ -4,11 +4,11 @@
 
 ## 当前交付状态
 
-- 主线进度：`0 / 70`。样章是教学设计验证，不代表学习者已经完成 Day 3。
+- 学习者主线进度：`0 / 70`。教材文件存在不代表学习者完成对应 Day。
 - 已建立：Day 0 诊断与跳过机制。
-- 唯一主线样章：[mainline/day03](mainline/day03/README.md)。
+- 教材制作进度：阶段 1 的 [Day 1–7](COURSE_MAP.md#阶段-1开工并得到首个-episodeday-17) 已编写，其中 [Day 3](mainline/day03/README.md) 保留“代表性样章”标记。
+- Day 4 / Gate 1 需要学习者在合格 Linux/NVIDIA 环境留下真实 episode 证据，目前未通过；Day 6–7 的真实模型 pilot 同样待执行。
 - 旧 Day 1–18 已原样迁移为 F01–F18 可选补习库，不计入主线完成天数。
-- 本轮没有编写 mainline Day 1、Day 2 或 Day 4–70。
 
 ## 从哪里开始
 
@@ -32,4 +32,4 @@
 - [作者规则](AUTHORING_RULES.md)
 - [项目上下文](PROJECT_CONTEXT.md)
 - [可选基础补习库](foundation_library/README.md)
-- [Day 3 样章参考答案区](shared/answer_keys/day03.md)
+- [主线参考答案区](shared/answer_keys/)

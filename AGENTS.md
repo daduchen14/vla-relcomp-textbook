@@ -35,4 +35,4 @@
 
 ## 当前边界
 
-本轮只允许课程 V2 迁移、Day 0 和 `mainline/day03` 样章。不要自动补写 mainline Day 1、Day 2 或 Day 4–70。修改前阅读 [AUTHORING_RULES.md](AUTHORING_RULES.md)、[PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) 与 [COURSE_MAP.md](COURSE_MAP.md)。
+V2 迁移和阶段 1（Day 1–7）教材已经完成；学习者 Gate 1、SmolVLA pilot 和 OpenVLA pilot 尚未产生真实运行证据。后续教材必须继续按 [COURSE_MAP.md](COURSE_MAP.md) 的顺序和 [AUTHORING_RULES.md](AUTHORING_RULES.md) 的逐日标准制作，保持“教材已编写 / 学习者已完成 / GPU 待验证”三种状态分离。修改前同时阅读 [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md)，每一天只提交当天明确教材与必要索引更新。

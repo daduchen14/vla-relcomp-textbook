@@ -1,0 +1,16 @@
+{
+  "form": "A",
+  "model_family": "openvla",
+  "checkpoint_repo": "VLA-Arena/openvla-7b-finetuned-vla-arena",
+  "checkpoint_revision": "779caf6517b5aeb9ed33882812a0c5f03f48c86e",
+  "unnorm_key": "vla_arena_l0_l",
+  "center_crop": true,
+  "quantization": "none",
+  "suite": "extrapolation_preposition_combinations",
+  "level": 0,
+  "task_id": 0,
+  "seed": 7,
+  "init_state_index": 0,
+  "num_trials": 1,
+  "max_steps": 300
+}
