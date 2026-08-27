@@ -42,12 +42,12 @@ echo $?
 
 ```csv
 episode_id,level,task_id,seed,relation,success,steps
-fixture_001,0,l0_pick_tomato_on_bowl,7,on,1,74
-fixture_002,0,l0_put_mug_left_plate,11,left,1,82
-fixture_003,1,l1_pick_tomato_on_bowl,7,on,0,120
-fixture_004,1,l1_put_mug_left_plate,11,left,1,96
-fixture_005,2,l2_pick_tomato_on_bowl,7,on,0,120
-fixture_006,2,l2_put_mug_left_plate,11,left,0,120
+fixture_001,0,fixture_l0_pick_tomato_on_bowl,7,on,1,74
+fixture_002,0,fixture_l0_put_mug_left_plate,11,left,1,82
+fixture_003,1,fixture_l1_pick_tomato_on_bowl,7,on,0,120
+fixture_004,1,fixture_l1_put_mug_left_plate,11,left,1,96
+fixture_005,2,fixture_l2_pick_tomato_on_bowl,7,on,0,120
+fixture_006,2,fixture_l2_put_mug_left_plate,11,left,0,120
 ```
 
 第一行是表头，后面六行每行代表一次 episode。字段含义：
@@ -341,7 +341,7 @@ cp day02/data/mini_episodes.csv \
 用编辑器在 `my_episodes.csv` 末尾新增：
 
 ```csv
-fixture_007,1,l1_move_can_right_box,19,right,0,110
+fixture_007,1,fixture_l1_move_can_right_box,19,right,0,110
 ```
 
 运行到独立输出目录：
