@@ -1,0 +1,24 @@
+{
+  "case_id": "gate3-unfamiliar-failure-01",
+  "event_readout": {
+    "target_contacted": true,
+    "target_lifted": true,
+    "reference_approached": false,
+    "relation_satisfied": false
+  },
+  "alternative_explanations": [
+    "模型可能已选对 target 并完成 lift，但 instruction 中的 reference 或终止关系没有稳定约束后续动作。",
+    "模型可能理解 target/reference，却因搬运控制、视角遮挡或动作误差而没有让距离持续下降。"
+  ],
+  "intervention": {
+    "type": "language_oracle",
+    "changed_field": "instruction_text",
+    "fixed_fields": ["task", "goal", "seed", "init_state", "model_revision", "inference_config"],
+    "uses_privileged_info": true,
+    "diagnostic_only": true
+  },
+  "prediction": {
+    "first_event_expected_to_change": "reference_approached",
+    "falsifier": "若结构化指令下 reference_approached 仍不改善且动作持续朝正确 reference 移动，则语言瓶颈解释受到削弱。"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "replace-from-case",
+  "event_readout": {
+    "target_contacted": false,
+    "target_lifted": false,
+    "reference_approached": false,
+    "relation_satisfied": false
+  },
+  "alternative_explanations": ["write explanation one", "write explanation two"],
+  "intervention": {
+    "type": "language_oracle",
+    "changed_field": "instruction_text",
+    "fixed_fields": ["task", "goal", "seed", "init_state", "model_revision", "inference_config"],
+    "uses_privileged_info": true,
+    "diagnostic_only": true
+  },
+  "prediction": {
+    "first_event_expected_to_change": "reference_approached",
+    "falsifier": "write an observation that would count against the chosen explanation"
+  }
+}

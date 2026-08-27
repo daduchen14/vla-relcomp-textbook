@@ -1,0 +1,13 @@
+{
+  "pilot_name": "l0t0_language_oracle_plan",
+  "task_selector": {"level": 0, "task_id": 0},
+  "model_id": "diagnostic_model_placeholder",
+  "model_revision": "fill_after_gate2_selection",
+  "inference_config_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "trials": [
+    {"seed": 14001, "init_state_index": 0},
+    {"seed": 14002, "init_state_index": 1},
+    {"seed": 14003, "init_state_index": 2}
+  ],
+  "source_kind": "planned_language_oracle_pilot_not_model_result"
+}

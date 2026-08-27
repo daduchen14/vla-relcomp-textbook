@@ -1,0 +1,12 @@
+{
+  "pilot_name": "l2t3_language_oracle_challenge",
+  "task_selector": {"level": 2, "task_id": 3},
+  "model_id": "diagnostic_model_placeholder",
+  "model_revision": "fill_after_gate2_selection",
+  "inference_config_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+  "trials": [
+    {"seed": 14101, "init_state_index": 3},
+    {"seed": 14102, "init_state_index": 4}
+  ],
+  "source_kind": "planned_language_oracle_challenge_not_model_result"
+}
