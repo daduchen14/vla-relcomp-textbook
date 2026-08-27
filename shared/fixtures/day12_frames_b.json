@@ -1,0 +1,20 @@
+{
+  "episode_id": "day12-challenge-b",
+  "target_object": "tomato_2",
+  "reference_object": "porcelain_bowl_2",
+  "relation": "On",
+  "source_kind": "synthetic_cpu_challenge_frames_not_mujoco_episode",
+  "real_environment_run": false,
+  "frames": [
+    {"step": 0, "target_z": 0.75, "target_gripper_contact": false, "target_reference_xy_distance": 0.44, "relation_satisfied": false},
+    {"step": 1, "target_z": 0.75, "target_gripper_contact": true, "target_reference_xy_distance": 0.41, "relation_satisfied": false},
+    {"step": 2, "target_z": 0.75, "target_gripper_contact": false, "target_reference_xy_distance": 0.40, "relation_satisfied": false},
+    {"step": 3, "target_z": 0.80, "target_gripper_contact": false, "target_reference_xy_distance": 0.38, "relation_satisfied": false},
+    {"step": 4, "target_z": 0.81, "target_gripper_contact": true, "target_reference_xy_distance": 0.31, "relation_satisfied": false},
+    {"step": 5, "target_z": 0.82, "target_gripper_contact": true, "target_reference_xy_distance": 0.28, "relation_satisfied": false},
+    {"step": 6, "target_z": 0.82, "target_gripper_contact": true, "target_reference_xy_distance": 0.22, "relation_satisfied": false},
+    {"step": 7, "target_z": 0.82, "target_gripper_contact": true, "target_reference_xy_distance": 0.24, "relation_satisfied": false},
+    {"step": 8, "target_z": 0.82, "target_gripper_contact": false, "target_reference_xy_distance": 0.20, "relation_satisfied": true},
+    {"step": 9, "target_z": 0.82, "target_gripper_contact": false, "target_reference_xy_distance": 0.19, "relation_satisfied": true}
+  ]
+}

@@ -30,7 +30,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 9 | 读取真实 CBDDL/BDDL 并解释 init/object/goal | 谓词、对象/区域、声明式任务 | 5×3 任务结构表、解析脚本 | 📘 [教材已编写](mainline/day09/README.md) |
 | 10 | 找到并验证真实 success predicate | predicate、terminated/truncated、阈值 | success 路径图、predicate 检查器 | 📘 [教材已编写](mainline/day10/README.md)；真实 MuJoCo probe 待 Gate 1 环境 |
 | 11 | 从仿真状态识别目标物、参照物和关系 | 坐标/位姿、对象 ID、特权边界 | object/relation state snapshot | 📘 [教材已编写](mainline/day11/README.md)；真实 MuJoCo snapshot 待 Gate 1 环境 |
-| 12 | 实现接触、抬升、参照接近、终态关系四段事件日志 | 时序、阈值、假阳/假阴 | stage event logger 与测试 | ⬜ 未编写 |
+| 12 | 实现接触、抬升、参照接近、终态关系四段事件日志 | 时序、阈值、假阳/假阴 | stage event logger 与测试 | 📘 [教材已编写](mainline/day12/README.md)；真实视频阈值抽查待 Gate 1 环境 |
 | 13 | 构造第一组单因素匹配反事实 | 控制变量、pair ID、seed/init 固定 | pair manifest、配对校验器 | ⬜ 未编写 |
 | 14 | 实现最小语言或视觉提示 oracle pilot | 干预、恢复率、因果边界、泄漏 | oracle pilot、诊断口述；Gate 3 | ⬜ 未编写 |
 
