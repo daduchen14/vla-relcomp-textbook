@@ -1,0 +1,24 @@
+(define (problem Teaching_Challenge)
+  (:domain robosuite)
+  (:language Put the apple on the table into the bowl near the cup)
+  (:fixtures
+    main_table - table
+  )
+  (:objects
+    apple_1 apple_2 - apple
+    bowl_1 - bowl
+    cup_1 - cup
+  )
+  (:obj_of_interest
+    apple_2
+  )
+  (:init
+    (On apple_1 main_table_left_region)
+    (On apple_2 main_table_right_region)
+    (On bowl_1 main_table_near_cup_region)
+    (On cup_1 main_table_center_region)
+  )
+  (:goal
+    (And (In apple_1 bowl_1))
+  )
+)
