@@ -2,7 +2,7 @@
 
 Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不计入主线进度。当前主线完成数为 `0 / 70`；`Day 3 🧪` 只表示代表性样章已编写，不表示学习者已完成。
 
-状态：`⬜ 未编写` · `🧪 样章已编写` · `✅ 学习者验收通过`。
+状态：`⬜ 未编写` · `📘 教材已编写` · `🧪 样章已编写` · `✅ 学习者验收通过`。教材状态与学习者完成状态分开记录。
 
 ## Day 0：诊断与跳过
 
@@ -12,7 +12,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 
 | Day | 真实项目任务 | 即时补充知识 | 当天必须产物 | 状态 |
 |---:|---|---|---|---|
-| 1 | 从锁定 commit 克隆并画出最小系统地图 | 终端、Git、仓库根、版本锁定 | `project_map.md`、commit 证明、suite 定位 | ⬜ 未编写 |
+| 1 | 从锁定 commit 克隆并画出最小系统地图 | 终端、Git、仓库根、版本锁定 | `project_map.md`、commit 证明、suite 定位 | 📘 [教材已编写](mainline/day01/README.md) |
 | 2 | 从 CLI/YAML 追踪到 PrepositionCombinations 任务列表 | 模块/路径、YAML、配置覆盖、容器 | `config_trace.md`、只读 suite manifest | ⬜ 未编写 |
 | 3 | 沿真实 evaluator 追踪 observation→policy→action→step→success | shape/dtype、episode/step、函数调用 | observation 摘要工具、真实调用链图 | 🧪 [样章已编写](mainline/day03/README.md) |
 | 4 | 在 Linux/NVIDIA 环境完成自检和可重复 episode | 进程、退出码、CUDA、headless MuJoCo | 命令、日志、视频/帧、registry；Gate 1 | ⬜ 未编写 |

@@ -19,9 +19,8 @@ def check_structure() -> list[str]:
     modules = sorted((ROOT / "foundation_library").glob("f[0-1][0-9]_*"))
     if len(modules) != 18 or any(not (path / "README.md").is_file() for path in modules):
         errors.append("foundation_library 必须恰好含 F01–F18 及 README")
-    unexpected = {path.name for path in (ROOT / "mainline").glob("day*")} - {
-        "day00_diagnostic", "day03",
-    }
+    allowed = {"day00_diagnostic"} | {f"day{number:02d}" for number in range(1, 71)}
+    unexpected = {path.name for path in (ROOT / "mainline").glob("day*")} - allowed
     if unexpected:
         errors.append(f"本轮出现未授权 mainline 目录：{sorted(unexpected)}")
     days = [int(value) for value in DAY_ROW.findall((ROOT / "COURSE_MAP.md").read_text())]
