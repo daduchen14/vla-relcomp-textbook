@@ -42,8 +42,6 @@
 
 - **中文主材料（8 分钟）**：[Python 中文官方文档：`collections.deque`](https://docs.python.org/zh-cn/3/library/collections.html#collections.deque)。只读 `append`、`extend`、`popleft`：它们正好对应“把 chunk 放入队列、每步弹出一个 action”。
 - **项目主材料（英文官方，15 分钟）**：[Hugging Face SmolVLA 文档](https://huggingface.co/docs/lerobot/smolvla)。只读开头架构图说明：多相机、sensorimotor state、语言如何条件化 action expert；本日不做训练。
-- **checkpoint 材料（项目模型卡，10 分钟）**：[VLA-Arena SmolVLA 模型卡](https://huggingface.co/VLA-Arena/smolvla-vla-arena)。只核对 2 路 256×256 RGB、8 维 state、7-DoF action、50 步 horizon；模型卡描述不是本地运行证据。
-- **精确源码（10 分钟）**：[锁定配置的 chunk 参数](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/src/lerobot/policies/smolvla/configuration_smolvla.py#L28-L43) 与 [`select_action` 队列](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/src/lerobot/policies/smolvla/modeling_smolvla.py#L479-L507)。
 
 ## 6. 最小实验
 
@@ -107,6 +105,8 @@ python3.11 mainline/day06/code/run_smolvla_single_pilot.py \
 ```
 
 runner 先验证锁定源码和 config，再按精确 revision 下载 snapshot，调用真实 [`initialize_model`](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/evaluator.py#L173-L178)、[`_get_vla_arena_env`](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/evaluator.py#L539-L566) 和 [`run_episode`](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/evaluator.py#L222-L334)。[完整 runner](code/run_smolvla_single_pilot.py) 分为 preflight、锁定下载、单 task/init、episode、证据登记五段；失败另写 `infrastructure_error.json`，不写 completed registry。
+
+运行前再核对 [VLA-Arena SmolVLA checkpoint 模型卡](https://huggingface.co/VLA-Arena/smolvla-vla-arena)、[锁定 chunk 参数](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/src/lerobot/policies/smolvla/configuration_smolvla.py#L28-L43) 和 [`select_action` 队列](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/src/lerobot/policies/smolvla/modeling_smolvla.py#L479-L507)；这些是项目证据，不增加成熟材料处方数量。
 
 ## 8. 独立挑战
 
