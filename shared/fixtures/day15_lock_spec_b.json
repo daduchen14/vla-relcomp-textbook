@@ -1,0 +1,22 @@
+{
+  "lock_name": "synthetic_baseline_lock_b_challenge",
+  "mode": "synthetic_demonstration",
+  "model_id": "synthetic/model-beta",
+  "model_revision": "synthetic-revision-b7",
+  "suite": "extrapolation_preposition_combinations",
+  "levels": [0, 1, 2],
+  "trials_per_task": 3,
+  "seed_policy": "manifest_explicit_seed_and_init_state_index",
+  "success_field": "info.success",
+  "invalid_episode_rule": "exclude_environment_exception_before_model_denominator",
+  "training_scope": "L0_only_if_repair_is_triggered",
+  "held_out_scope": "L1_L2_never_select_checkpoint_or_hyperparameters",
+  "evidence_required": ["result_json", "event_log", "video", "exception_log", "resource_log"],
+  "files_to_hash": [
+    "PROJECT_CONTEXT.md",
+    "mainline/day12/config/event_thresholds.json",
+    "shared/fixtures/day13_pair_spec_b.json",
+    "shared/fixtures/day14_oracle_spec_b.json"
+  ],
+  "source_kind": "synthetic_protocol_lock_challenge_not_baseline"
+}

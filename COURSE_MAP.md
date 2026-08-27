@@ -41,7 +41,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 
 | Day | 真实项目任务 | 即时补充知识 | 当天必须产物 | 状态 |
 |---:|---|---|---|---|
-| 15 | 冻结代码、模型、数据、任务和运行口径 | revision、快照、可复现性 | baseline protocol lock | ⬜ 未编写 |
+| 15 | 冻结代码、模型、数据、任务和运行口径 | revision、快照、可复现性 | baseline protocol lock | 📘 [教材已编写](mainline/day15/README.md)；formal lock 待 Gate 1/2 真实 revision |
 | 16 | 建立 run/episode registry 与证据命名 | schema、主键、缺失值 | registry 生成器、schema 测试 | ⬜ 未编写 |
 | 17 | 构建可恢复批量 evaluator | retry、checkpoint、幂等 | batch runner、resume 状态 | ⬜ 未编写 |
 | 18 | 按任务运行 L0 基线 | task 统计、seed、init state | L0 registry、视频索引 | ⬜ 未编写 |
