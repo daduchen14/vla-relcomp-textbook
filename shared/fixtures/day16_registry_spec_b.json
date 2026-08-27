@@ -1,0 +1,16 @@
+{
+  "batch_name": "synthetic_registry_b_challenge",
+  "protocol_lock_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+  "upstream_commit": "babe582ebffc82b979b77964a7e56417d02f63a4",
+  "code_commit": "synthetic-code-commit-b",
+  "model_id": "synthetic/model-beta",
+  "model_revision": "synthetic-revision-b7",
+  "inference_config_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "suite": "extrapolation_preposition_combinations",
+  "level": 1,
+  "episodes": [
+    {"task_id": 3, "seed": 16101, "init_state_index": 3},
+    {"task_id": 4, "seed": 16102, "init_state_index": 4}
+  ],
+  "source_kind": "synthetic_registry_challenge_not_model_result"
+}
