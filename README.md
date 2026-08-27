@@ -66,6 +66,7 @@ git pull --ff-only
 - [Day 14：Dataset、DataLoader 与可复现随机性](day14/README.md)
 - [Day 15：图像张量、卷积和 CNN](day15/README.md)
 - [Day 16：序列、token、embedding 与位置](day16/README.md)
+- [Day 17：注意力——查询、键和值](day17/README.md)
 
 ## 统一执行约定
 
