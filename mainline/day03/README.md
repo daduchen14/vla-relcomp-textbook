@@ -125,7 +125,7 @@ sed -n '1,120p' learner_outputs/mainline/day03/locked_call_chain.md
 不要看 `shared/answer_keys/day03.md`。对新输入 `shared/fixtures/day03_observation_challenge.json` 独立完成：
 
 - 生成 `learner_outputs/mainline/day03/challenge_summary.json`；
-- 在调用链图下新增一段 120–200 字说明：新输入改变了哪些 shape/dtype，哪些调用链节点不变；
+- 独立写入 `learner_outputs/mainline/day03/challenge_reasoning.md`，用 120–500 字说明新输入改变了哪些 shape/dtype、哪些调用链节点不变；
 - 口述为什么 raw 四元数是 4 维，而准备后的 axis-angle 是 3 维，并指出你没有实际验证哪一部分。
 
 可以使用今天的工具和两份成熟材料，但不给逐步命令。不得修改示例 fixture 来“适配”答案。
@@ -139,8 +139,11 @@ sed -n '1,120p' learner_outputs/mainline/day03/locked_call_chain.md
 .venv-day06/bin/python mainline/day03/code/check_deliverables.py \
   --summary learner_outputs/mainline/day03/observation_summary.json \
   --call-chain learner_outputs/mainline/day03/locked_call_chain.md \
-  --challenge learner_outputs/mainline/day03/challenge_summary.json
+  --challenge learner_outputs/mainline/day03/challenge_summary.json \
+  --challenge-reasoning learner_outputs/mainline/day03/challenge_reasoning.md
 ```
+
+验收器会从 challenge fixture 重新计算完整摘要并逐字段比较；复制示例摘要后只改 `fixture_id` 会失败。独立说明还必须准确写出两路新图像 shape、`float64` 和未运行真实环境的边界。
 
 口述评分共 10 分：
 
