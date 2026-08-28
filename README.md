@@ -6,7 +6,7 @@
 
 - 学习者主线进度：`0 / 70`。教材文件存在不代表学习者完成对应 Day。
 - 已建立：Day 0 诊断与跳过机制。
-- 教材制作进度：[Day 1–44](COURSE_MAP.md) 已编写，其中 [Day 3](mainline/day03/README.md) 保留“代表性样章”标记；下一编写入口是 Day 45。
+- 教材制作进度：[Day 1–45](COURSE_MAP.md) 已编写，其中 [Day 3](mainline/day03/README.md) 保留“代表性样章”标记；下一编写入口是 Day 46。
 - Gate 1–5 均只有教材、静态契约或合成 fixture/rehearsal 验收，学习者尚未通过；真实 episode、模型 pilot、阈值视频抽查、oracle pilot 与中断恢复均待合格 Linux/NVIDIA 环境执行。
 - 旧 Day 1–18 已原样迁移为 F01–F18 可选补习库，不计入主线完成天数。
 

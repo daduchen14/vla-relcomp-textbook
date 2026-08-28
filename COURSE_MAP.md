@@ -85,7 +85,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 42 | 用极小数据 one-batch overfit | 闭环、loss、数据/代码诊断 | overfit smoke evidence | 📘 [教材已编写](mainline/day42/README.md)；真实 SmolVLA one-batch 待执行 |
 | 43 | 运行短训练 pilot并检查恢复 | 日志、早停、resume | training pilot | 📘 [教材已编写](mainline/day43/README.md)；真实 SmolVLA/GPU pilot 待执行 |
 | 44 | 处理稳定性并冻结训练配置 | 数值稳定、seed、异常 | frozen recipe | 📘 [教材已编写](mainline/day44/README.md)；真实 SmolVLA/CUDA recipe 待冻结 |
-| 45 | 正式训练 seed 1 | 资源记录、测试集隔离 | checkpoint 1 | ⬜ 未编写 |
+| 45 | 正式训练 seed 1 | 资源记录、测试集隔离 | checkpoint 1 | 📘 [教材已编写](mainline/day45/README.md)；正式 run/checkpoint 1 为 NOT_RUN |
 | 46 | 训练 seed 2–3 或预算内重复 | 重复、方差 | checkpoints 2–3 | ⬜ 未编写 |
 | 47 | 评测 L0 保持 | catastrophic damage、保持率 | L0 retention | ⬜ 未编写 |
 | 48 | 首次评测 L1/L2 泛化 | 保留测试、预注册分析 | OOD results | ⬜ 未编写 |
