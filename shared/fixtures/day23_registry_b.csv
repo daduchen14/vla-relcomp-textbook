@@ -1,0 +1,5 @@
+episode_id,task_id,status,success
+q1,0,COMPLETED,0
+q2,1,COMPLETED,1
+q3,2,ERROR,
+q4,3,COMPLETED,1

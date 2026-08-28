@@ -1,0 +1,5 @@
+episode_id,video_path,video_status
+e1,evidence/e1/rollout.mp4,PRESENT
+e2,evidence/e2/rollout.mp4,PRESENT
+e4,,MISSING
+e5,evidence/e5/rollout.mp4,PRESENT
