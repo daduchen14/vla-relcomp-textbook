@@ -32,6 +32,6 @@
 
 - Day 0：已建立诊断与跳过机制，不计入 70 天。
 - F01–F18：由旧 Day 1–18 迁移而来，内容只作机械路径更新，不计入主线。
-- mainline Day 1–16：教材已编写；Day 3 仍标记为代表性样章，下一编写入口为 Day 17。
+- mainline Day 1–17：教材已编写；Day 3 仍标记为代表性样章，下一编写入口为 Day 18。
 - 学习者完成数仍为 `0 / 70`；Gate 1–3 没有学习者通过证据，真实 episode、模型 pilot、四段事件视频抽查和 oracle pilot 均未运行。
-- Day 8–16 的静态源码契约、CPU fixture、Gate 样例、synthetic protocol lock 与 registry 只是教材验收，不是 VLA-Arena/MuJoCo/模型结果；后续从 Day 17 顺序制作并继续分离三类状态。
+- Day 8–17 的静态源码契约、CPU fixture、Gate 样例、synthetic protocol lock/registry 与 scripted runner 只是教材验收，不是 VLA-Arena/MuJoCo/模型结果；后续从 Day 18 顺序制作并继续分离三类状态。

@@ -1,0 +1,8 @@
+{
+  "executor_kind": "scripted_fixture_challenge_not_vla_model",
+  "max_attempts": 3,
+  "outcomes_by_task": {
+    "3": ["RETRYABLE_ERROR", "RETRYABLE_ERROR", "COMPLETED_SUCCESS"],
+    "4": ["COMPLETED_FAILURE"]
+  }
+}
