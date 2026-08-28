@@ -105,7 +105,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 55 | 重跑关键 oracle | 诊断与最终方法分栏 | final oracle data | 📘 [教材已编写](mainline/day55/README.md)；真实 final oracle 待执行 |
 | 56 | 冻结四段事件统计 | conversion rate、阶段漏斗 | stage metrics | 📘 [教材已编写](mainline/day56/README.md)；真实 stage metrics 待执行 |
 | 57 | 完成 Wilson、恢复/损伤率与配对检验 | 效应量、区间、McNemar 边界 | statistics script | 📘 [教材已编写](mainline/day57/README.md)；正式 raw counts 待执行 |
-| 58 | 选择代表案例并建立视频证据表 | 避免 cherry-pick | casebook | ⬜ 未编写 |
+| 58 | 选择代表案例并建立视频证据表 | 避免 cherry-pick | casebook | 📘 [教材已编写](mainline/day58/README.md)；真实视频尚未生成/观看 |
 | 59 | 汇总时间、显存、失败运行和成本 | 系统指标、实验分母 | resource table | ⬜ 未编写 |
 | 60 | 冻结结果与允许的论文主张 | claim-evidence、负结果 | results lock；Gate 7 | ⬜ 未编写 |
 
