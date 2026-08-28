@@ -103,7 +103,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 53 | 干净重跑修复模型 | 同配置、checkpoint provenance | final repair data | 📘 [教材已编写](mainline/day53/README.md)；final repair 为 NOT_RUN |
 | 54 | 重跑关键反事实对 | pair 完整性、缺失处理 | final pair data | 📘 [教材已编写](mainline/day54/README.md)；真实 final pairs 待执行 |
 | 55 | 重跑关键 oracle | 诊断与最终方法分栏 | final oracle data | 📘 [教材已编写](mainline/day55/README.md)；真实 final oracle 待执行 |
-| 56 | 冻结四段事件统计 | conversion rate、阶段漏斗 | stage metrics | ⬜ 未编写 |
+| 56 | 冻结四段事件统计 | conversion rate、阶段漏斗 | stage metrics | 📘 [教材已编写](mainline/day56/README.md)；真实 stage metrics 待执行 |
 | 57 | 完成 Wilson、恢复/损伤率与配对检验 | 效应量、区间、McNemar 边界 | statistics script | ⬜ 未编写 |
 | 58 | 选择代表案例并建立视频证据表 | 避免 cherry-pick | casebook | ⬜ 未编写 |
 | 59 | 汇总时间、显存、失败运行和成本 | 系统指标、实验分母 | resource table | ⬜ 未编写 |
