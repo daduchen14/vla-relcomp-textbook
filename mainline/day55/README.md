@@ -35,7 +35,7 @@ oracle 往往比 repair 表现更好，但它知道 ground-truth relation 或 ob
 
 ## 5. 成熟材料处方
 
-- **中文主材料（Google ML，8 分钟）**：[数据泄漏](https://developers.google.com/machine-learning/crash-course/overfitting/data-leakage?hl=zh-cn)。只理解训练/推理时不可用信息为何会造成虚高；oracle 是有意的诊断泄漏，必须显式标注。
+- **中文主材料（Google ML，8 分钟）**：[生产机器学习系统：监控](https://developers.google.com/machine-learning/crash-course/production-ml-systems/monitoring?hl=zh-cn)。只读“检查标签泄漏”，理解部署时不可用信息为何会造成虚高；oracle 是有意的诊断泄漏，必须显式标注。
 - **补充材料（Distill，10 分钟）**：[Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/)。只读把诊断工具与模型能力区分的思想；不要求复现视觉化。
 - **锁定项目定位（10 分钟）**：[evaluator 第 247–255 行](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/evaluator.py#L247-L255) 改写 instruction；[第 264–299 行](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/evaluator.py#L264-L299) 构造图像/state/task observation。language oracle 只改 task，visual oracle 只改图像副本，且都需显式特权来源。
 

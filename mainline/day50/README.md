@@ -35,8 +35,8 @@
 
 ## 5. 成熟材料处方
 
-- **中文主材料（Center for Open Science，10 分钟）**：[预注册快速指南（中文 PDF）](https://www.cos.io/hubfs/Preregistration/Preregistration_Quick_Guide_Chinese.pdf)。重点看提前冻结问题、方法和分析如何减少结果后决策。
-- **补充材料（Nature Human Behaviour，10 分钟）**：[The preregistration revolution](https://www.nature.com/articles/s41562-018-0449-0)。只读摘要与 preregistration 区分 confirmatory/exploratory 的作用，不要求付费正文。
+- **中文主材料（Open for Science，10 分钟）**：[早期职业研究人员开放科学指南（中文 PDF）](https://open4science.cn/static/ECR_OpenScience_Guide_CN.pdf)。重点看提前冻结问题、方法和分析如何减少结果后决策。
+- **补充材料（OSF 官方，10 分钟）**：[Welcome to Registrations](https://help.osf.io/article/330-welcome-to-registrations)。只读 registration 如何形成不可变、带时间戳的研究计划，以及 embargo 的含义。
 - **锁定项目定位（8 分钟）**：[SmolVLA evaluator Args 第 79–139 行](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/evaluator.py#L79-L139) 固定 level、trials、initial-state、seed 与 replacement；[success 判定第 310–334 行](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/evaluator.py#L310-L334) 是正式原始记录必须追溯的终点。
 
 ## 6. 最小实验

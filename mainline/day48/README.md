@@ -35,7 +35,7 @@
 
 ## 5. 成熟材料处方
 
-- **中文主材料（Center for Open Science，10 分钟）**：[预注册快速指南（中文 PDF）](https://www.cos.io/hubfs/Preregistration/Preregistration_Quick_Guide_Chinese.pdf)。只读“分析计划应在观察结果前固定”的部分。
+- **中文主材料（Open for Science，10 分钟）**：[早期职业研究人员开放科学指南（中文 PDF）](https://open4science.cn/static/ECR_OpenScience_Guide_CN.pdf)。只读预注册部分，理解分析计划为何应在观察结果前固定。
 - **补充材料（scikit-learn 官方，8 分钟）**：[模型评估：交叉验证](https://scikit-learn.org/stable/modules/cross_validation.html)。只看训练/验证/测试隔离概念；本项目 OOD test 不参与交叉验证。
 - **锁定项目定位（10 分钟）**：[SmolVLA Args 第 79–100 行](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/evaluator.py#L79-L100) 定义 task level、trials 和 initial-state selection；[run_task 第 391–425 行](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/evaluator.py#L391-L425) 按 episode index 取初始状态并调用 rollout。真实 L1/L2 比较必须锁定这些字段。
 

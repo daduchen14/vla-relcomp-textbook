@@ -35,7 +35,7 @@
 
 ## 5. 成熟材料处方
 
-- **中文主材料（COS，10 分钟）**：[预注册快速指南（中文 PDF）](https://www.cos.io/hubfs/Preregistration/Preregistration_Quick_Guide_Chinese.pdf)。重点核对研究问题、方法、分析和排除规则是否在结果前写清。
+- **中文主材料（Open for Science，10 分钟）**：[早期职业研究人员开放科学指南（中文 PDF）](https://open4science.cn/static/ECR_OpenScience_Guide_CN.pdf)。重点核对研究问题、方法、分析和排除规则是否在结果前写清。
 - **补充材料（Python 官方，6 分钟）**：[json：基本用法](https://docs.python.org/zh-cn/3/library/json.html#basic-usage)。只看 `sort_keys` 与 separators；hash 是身份工具，不是签名认证。
 - **锁定项目定位（8 分钟）**：[SmolVLA Args 第 79–139 行](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/evaluator.py#L79-L139) 显示真实 level/trials/init-state/seed/replacement 字段；[默认 train config 第 1–18 行](https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/configs/train/smolvla.yaml#L1-L18) 给出训练数据、模型、步数和 checkpoint 字段。final manifest 必须映射而非修改这些锁定文件。
 
