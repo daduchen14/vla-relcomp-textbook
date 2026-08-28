@@ -1,0 +1,1 @@
+{"seed":40,"trainable_prefixes":["relation_adapter"],"frozen_prefixes":["backbone","action_head"],"action_loss_weight":1.0,"pair_consistency_weight":0.25,"source_kind":"synthetic_trainability_config"}

@@ -1,0 +1,1 @@
+{"source_kind":"synthetic_trainability_a_not_vla","pairs":[{"pair_id":"ta","control_features":[1.0,0.0,0.5,-0.5],"normalized_features":[0.9,0.1,0.5,-0.4],"action_target":[0.2,-0.1]},{"pair_id":"tb","control_features":[0.0,1.0,-0.5,0.25],"normalized_features":[0.1,0.9,-0.4,0.25],"action_target":[-0.3,0.4]}]}
