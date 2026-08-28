@@ -88,7 +88,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 45 | 正式训练 seed 1 | 资源记录、测试集隔离 | checkpoint 1 | 📘 [教材已编写](mainline/day45/README.md)；正式 run/checkpoint 1 为 NOT_RUN |
 | 46 | 训练 seed 2–3 或预算内重复 | 重复、方差 | checkpoints 2–3 | 📘 [教材已编写](mainline/day46/README.md)；正式 repeats/checkpoints 2–3 为 NOT_RUN |
 | 47 | 评测 L0 保持 | catastrophic damage、保持率 | L0 retention | 📘 [教材已编写](mainline/day47/README.md)；真实 checkpoint L0 eval 待执行 |
-| 48 | 首次评测 L1/L2 泛化 | 保留测试、预注册分析 | OOD results | ⬜ 未编写 |
+| 48 | 首次评测 L1/L2 泛化 | 保留测试、预注册分析 | OOD results | 📘 [教材已编写](mainline/day48/README.md)；真实 held-out L1/L2 待执行 |
 | 49 | 做最小消融和成本匹配对照 | ablation、算力公平、单变量 | ablation table | ⬜ 未编写 |
 | 50 | 继续、回退或接受负结果 | go/no-go、有限结论 | repair conclusion；Gate 6 | ⬜ 未编写 |
 
