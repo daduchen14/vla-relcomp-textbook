@@ -126,7 +126,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 
 | Day | 真实项目任务 | 即时补充知识 | 当天必须产物 | 状态 |
 |---:|---|---|---|---|
-| 67 | fresh clone 重建环境并复现最小表格 | lockfile、缓存、文档可执行性 | reproduction log | ⬜ 未编写 |
+| 67 | fresh clone 重建环境并复现最小表格 | lockfile、缓存、文档可执行性 | reproduction log | 📘 [教材已编写](mainline/day67/README.md)；免费 fresh-clone smoke 纳入本日验收，正式 VLA-Arena 复现待执行 |
 | 68 | 完成 README、一键入口和演示脚本 | 信息架构、失败回退 | public project entry | ⬜ 未编写 |
 | 69 | 完成答辩故事、问题库和 10 分钟演示 | 口述结构、追问、诚实边界 | slides、口述稿、Q&A | ⬜ 未编写 |
 | 70 | 不看答案复写核心模块并复现关键证据 | 迁移、代码所有权、最终自检 | final capstone；Gate 8 | ⬜ 未编写 |
