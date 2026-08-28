@@ -1,0 +1,1 @@
+{"sustained_relation_steps":3,"require_gripper_release":true,"allowed_relations":["In","On"],"source_kind":"synthetic_relation_challenge_not_mujoco"}
