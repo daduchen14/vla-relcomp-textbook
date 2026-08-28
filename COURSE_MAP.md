@@ -46,7 +46,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 17 | 构建可恢复批量 evaluator | retry、checkpoint、幂等 | batch runner、resume 状态 | 📘 [教材已编写](mainline/day17/README.md)；真实 evaluator adapter 待 Gate 1/2 |
 | 18 | 按任务运行 L0 基线 | task 统计、seed、init state | L0 registry、视频索引 | 📘 [教材已编写](mainline/day18/README.md)；真实 L0 baseline/video 待 GPU |
 | 19 | 按冻结口径运行 L1 | 保留测试、不得调参 | L1 registry | 📘 [教材已编写](mainline/day19/README.md)；真实 L1 held-out 运行待 GPU |
-| 20 | 按冻结口径运行 L2 | 强 OOD、失败分类 | L2 registry | ⬜ 未编写 |
+| 20 | 按冻结口径运行 L2 | 强 OOD、失败分类 | L2 registry | 📘 [教材已编写](mainline/day20/README.md)；真实 L2/失败分类待 GPU |
 | 21 | 重跑关键任务验证复现性 | 随机性、多 seed、一致性 | reproducibility 表 | ⬜ 未编写 |
 | 22 | 计算任务级成功率与 Wilson 区间 | 二项计数、区间、宏/微平均 | baseline stats 脚本 | ⬜ 未编写 |
 | 23 | 连接视频、异常和四段事件到 episode | evidence join、异常分类 | evidence index | ⬜ 未编写 |
