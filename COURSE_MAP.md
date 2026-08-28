@@ -61,7 +61,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 |---:|---|---|---|---|
 | 26 | 把研究假设变成可观测事件和可证伪预测 | 假设、指标、替代解释 | hypothesis-to-metric 表 | 📘 [教材已编写](mainline/day26/README.md)；真实干预结果未运行 |
 | 27 | 完善目标接近/接触探针 | 接触、距离、对象选择错误 | target detector、阈值测试 | 📘 [教材已编写](mainline/day27/README.md)；真实 MuJoCo trace/视频校准待执行 |
-| 28 | 完善抓取/抬升探针 | 支撑面、夹爪接触、持续阈值 | lift detector、敏感性图 | ⬜ 未编写 |
+| 28 | 完善抓取/抬升探针 | 支撑面、夹爪接触、持续阈值 | lift detector、敏感性图 | 📘 [教材已编写](mainline/day28/README.md)；真实 MuJoCo trace/视频校准待执行 |
 | 29 | 完善搬运到参照区域探针 | 轨迹距离、趋势、错误参照物 | approach detector | ⬜ 未编写 |
 | 30 | 完善终态空间关系探针 | 关系操作定义 | relation detector | ⬜ 未编写 |
 | 31 | 批量构造关系最小反事实对 | matching、pair asymmetry | relation pair set | ⬜ 未编写 |
