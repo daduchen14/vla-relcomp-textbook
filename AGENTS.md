@@ -35,4 +35,4 @@
 
 ## 当前边界
 
-V2 迁移和 Day 1–18 教材已经完成；下一编写入口是 Day 19。学习者 Gate 1–3、SmolVLA/OpenVLA pilot、真实四段 probe、oracle pilot、formal baseline lock/registry、真实 evaluator adapter 与 L0 baseline 尚未产生运行证据。后续教材必须继续按 [COURSE_MAP.md](COURSE_MAP.md) 的顺序和 [AUTHORING_RULES.md](AUTHORING_RULES.md) 的逐日标准制作，保持“教材已编写 / 学习者已完成 / GPU 待验证”三种状态分离。修改前同时阅读 [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md)，每一天只提交当天明确教材与必要索引更新。
+V2 迁移和 Day 1–19 教材已经完成；下一编写入口是 Day 20。学习者 Gate 1–3、模型 pilot、formal baseline 基础设施与真实 L0/L1 运行尚无证据。后续教材必须继续按 [COURSE_MAP.md](COURSE_MAP.md) 和 [AUTHORING_RULES.md](AUTHORING_RULES.md) 顺序制作，保持“教材已编写 / 学习者已完成 / GPU 待验证”分离。
