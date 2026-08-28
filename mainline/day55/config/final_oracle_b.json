@@ -1,0 +1,1 @@
+{"registered_episode_count":4,"required_conditions":["baseline","repair","language_oracle","visual_oracle"],"oracle_role":"diagnostic_only","privileged_information":{"language_oracle":"ground-truth normalized relation slots","visual_oracle":"ground-truth target/reference RGB overlays"}}
