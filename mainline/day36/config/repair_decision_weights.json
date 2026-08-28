@@ -1,0 +1,1 @@
+{"weights":{"evidence_alignment":3,"expected_benefit":2,"implementation_cost":-1,"leakage_risk":-2,"l0_damage_risk":-2,"falsifiability":1},"minimum_non_stop_score":4,"source_kind":"synthetic_repair_decision_config"}
