@@ -106,7 +106,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 56 | 冻结四段事件统计 | conversion rate、阶段漏斗 | stage metrics | 📘 [教材已编写](mainline/day56/README.md)；真实 stage metrics 待执行 |
 | 57 | 完成 Wilson、恢复/损伤率与配对检验 | 效应量、区间、McNemar 边界 | statistics script | 📘 [教材已编写](mainline/day57/README.md)；正式 raw counts 待执行 |
 | 58 | 选择代表案例并建立视频证据表 | 避免 cherry-pick | casebook | 📘 [教材已编写](mainline/day58/README.md)；真实视频尚未生成/观看 |
-| 59 | 汇总时间、显存、失败运行和成本 | 系统指标、实验分母 | resource table | ⬜ 未编写 |
+| 59 | 汇总时间、显存、失败运行和成本 | 系统指标、实验分母 | resource table | 📘 [教材已编写](mainline/day59/README.md)；真实资源测量/账单待执行 |
 | 60 | 冻结结果与允许的论文主张 | claim-evidence、负结果 | results lock；Gate 7 | ⬜ 未编写 |
 
 **Gate 7：** 随机抽三条主张，指出对应表格、原始 episode、版本和不能推出的更强结论。
