@@ -50,7 +50,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 21 | 重跑关键任务验证复现性 | 随机性、多 seed、一致性 | reproducibility 表 | 📘 [教材已编写](mainline/day21/README.md)；真实配对重跑待 GPU |
 | 22 | 计算任务级成功率与 Wilson 区间 | 二项计数、区间、宏/微平均 | baseline stats 脚本 | 📘 [教材已编写](mainline/day22/README.md)；真实 baseline stats 待真实 registry |
 | 23 | 连接视频、异常和四段事件到 episode | evidence join、异常分类 | evidence index | 📘 [教材已编写](mainline/day23/README.md)；真实 evidence join 待真实运行产物 |
-| 24 | 同口径比较候选模型并冻结主模型 | 公平比较、L0 样本充分性 | model selection memo | ⬜ 未编写 |
+| 24 | 同口径比较候选模型并冻结主模型 | 公平比较、L0 样本充分性 | model selection memo | 📘 [教材已编写](mainline/day24/README.md)；真实候选比较/freeze 待 GPU |
 | 25 | 从空 manifest 复现缩小版基线表 | 端到端复现、证据口述 | reproduction package；Gate 4 | ⬜ 未编写 |
 
 **Gate 4：** 不看步骤，从新 manifest 跑缩小评测、恢复中断、生成任务级表，并解释 L1/L2 为什么不能选 checkpoint。
