@@ -1,0 +1,12 @@
+{"evidence_mode":"synthetic","formal_evidence_available":false,"sections":["Abstract","Problem and contribution","Methods","Results","Related work","Limitations","Ethics and safety","Negative results","Reproducibility","Conclusion"],"content":{
+"Abstract":"This new teaching dossier rehearses a bounded diagnosis-and-repair report using synthetic hazard-avoidance records.",
+"Problem and contribution":"The study structure separates stage diagnosis, deployable repair and diagnostic oracle evidence.",
+"Methods":"A frozen task matrix, episode pair key, seed list, success rule and analysis plan are attached to the locked evaluator version.",
+"Results":"The synthetic repair did not meet the teaching minimum-improvement criterion; denominator, interval and missing-pair boundaries are retained.",
+"Related work":"VLA-Arena organizes evaluation across levels and suites, while open VLA work motivates policy evaluation. The dossier contributes a claim-evidence workflow, not a competing model.",
+"Limitations":"This simulator exercise uses a narrow task suite, has no formal checkpoint, carries large statistical uncertainty, and cannot generalize to a physical robot or unseen embodiment.",
+"Ethics and safety":"Reported safety is not a deployment certificate. Misuse through inflated claims is a risk; resource and carbon-relevant run totals should be disclosed; license obligations govern redistribution; privacy review is required before collecting real workspace video.",
+"Negative results":"The negative result and inconclusive interval are preserved; not equivalence is the required interpretation, and the stopping rule forbids opportunistic expansion.",
+"Reproducibility":"The synthetic dossier includes version hashes, immutable inputs, generators and machine checkers.",
+"Conclusion":"The bounded outcome is no demonstrated improvement in this fixture; no real-model conclusion follows."
+},"references":[{"label":"VLA-Arena","url":"https://arxiv.org/abs/2512.22539","role":"evaluation framework"},{"label":"OpenVLA","url":"https://arxiv.org/abs/2406.09246","role":"VLA model context"},{"label":"Locked evaluator","url":"https://github.com/PKU-Alignment/VLA-Arena/blob/babe582ebffc82b979b77964a7e56417d02f63a4/vla_arena/models/smolvla/evaluator.py#L391-L499","role":"episode and aggregate provenance"}]}

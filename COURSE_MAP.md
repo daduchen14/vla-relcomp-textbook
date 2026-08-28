@@ -120,7 +120,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 63 | 生成阶段漏斗、pair 和干预图 | 诚实可视化、误差条 | paper figures | 📘 [教材已编写](mainline/day63/README.md)；正式图待真实 release 数据 |
 | 64 | 写问题、方法和实验设置 | 研究问题、操作定义 | methods draft | 📘 [教材已编写](mainline/day64/README.md)；正式 methods 待真实执行记录 |
 | 65 | 写结果、诊断与修复结论 | 证据顺序、有限语言 | results draft | 📘 [教材已编写](mainline/day65/README.md)；正式 results 待真实 evidence lock |
-| 66 | 写相关工作、限制、伦理和负结果 | scope、外推边界 | complete report draft | ⬜ 未编写 |
+| 66 | 写相关工作、限制、伦理和负结果 | scope、外推边界 | complete report draft | 📘 [教材已编写](mainline/day66/README.md)；正式实证报告待真实 evidence |
 
 ## 阶段 8：复现与答辩（Day 67–70）
 
