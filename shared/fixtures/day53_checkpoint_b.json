@@ -1,0 +1,1 @@
+{"source_kind":"synthetic_checkpoint_provenance_b_not_bytes","checkpoint_sha256":"ckpt-b111","parent_base_sha256":"base-b222","recipe_sha256":"recipe-b333","split_sha256":"split-b444","seed":2,"step":800,"status":"complete","contents":["policy","optimizer","scheduler","step","config"]}

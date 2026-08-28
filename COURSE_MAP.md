@@ -100,7 +100,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 |---:|---|---|---|---|
 | 51 | 冻结最终矩阵与停止规则 | preregistration、版本冻结 | final manifest | 📘 [教材已编写](mainline/day51/README.md)；final plan 未授权执行 |
 | 52 | 干净重跑主基线 | clean-room、缓存污染 | final baseline data | 📘 [教材已编写](mainline/day52/README.md)；final baseline 为 NOT_RUN |
-| 53 | 干净重跑修复模型 | 同配置、checkpoint provenance | final repair data | ⬜ 未编写 |
+| 53 | 干净重跑修复模型 | 同配置、checkpoint provenance | final repair data | 📘 [教材已编写](mainline/day53/README.md)；final repair 为 NOT_RUN |
 | 54 | 重跑关键反事实对 | pair 完整性、缺失处理 | final pair data | ⬜ 未编写 |
 | 55 | 重跑关键 oracle | 诊断与最终方法分栏 | final oracle data | ⬜ 未编写 |
 | 56 | 冻结四段事件统计 | conversion rate、阶段漏斗 | stage metrics | ⬜ 未编写 |
