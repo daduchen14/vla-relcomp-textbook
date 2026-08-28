@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+"""生成 relation 固定的对象组合 pair 计划与覆盖报告。"""
+from __future__ import annotations
+import argparse,csv,hashlib,json
+from collections import Counter
+from pathlib import Path
+INPUT=("pair_key","level","relation_slot","relation","target_a","reference_a","target_b","reference_b","instruction_a","instruction_b","init_state_a","init_state_b","scene_asset_sha256","camera_config_sha256","object_multiset_sha256","matched_state_group_sha256","matching_stratum","seed","model_revision","inference_config_sha256","goal_sync_review","reachability_review","source_kind")
+OUTPUT=("pair_id","arm","pair_key","level","relation_slot","relation","target_object_id","reference_object_id","object_combination","instruction_text","init_state_id","scene_asset_sha256","camera_config_sha256","object_multiset_sha256","matched_state_group_sha256","matching_stratum","seed","model_revision","inference_config_sha256","state_difference_whitelist","goal_sync_review","reachability_review","execution_status","real_environment_run","source_kind")
+RELATIONS={"next_to","on_top_of","in"}
+def digest(*parts):return hashlib.sha256("\x1f".join(parts).encode()).hexdigest()
+def load(path:Path):
+    with path.open(encoding="utf-8",newline="") as handle:reader=csv.DictReader(handle);rows=list(reader);fields=tuple(reader.fieldnames or ())
+    if fields!=INPUT or not rows:raise ValueError("spec schema/rows 非法")
+    return rows
+def build(path:Path):
+    specs=load(path);output=[];seen=set()
+    for spec in specs:
+        combo_a=(spec["target_a"],spec["reference_a"]);combo_b=(spec["target_b"],spec["reference_b"])
+        if spec["pair_key"] in seen or spec["relation"] not in RELATIONS or combo_a==combo_b or not all(combo_a+combo_b):raise ValueError("pair/relation/object combo 非法")
+        seen.add(spec["pair_key"])
+        if spec["instruction_a"]==spec["instruction_b"] or spec["init_state_a"]==spec["init_state_b"]:raise ValueError("object treatment 未同步")
+        hashes=(spec["scene_asset_sha256"],spec["camera_config_sha256"],spec["object_multiset_sha256"],spec["matched_state_group_sha256"],spec["inference_config_sha256"])
+        if any(len(value)!=64 or set(value)-set("0123456789abcdef") for value in hashes):raise ValueError("sha256 非法")
+        if spec["level"] not in {"0","1","2"} or not spec["matching_stratum"]:raise ValueError("level/matching stratum 非法")
+        if spec["goal_sync_review"]!="pending_human_review" or spec["reachability_review"]!="pending_replay" or not spec["model_revision"].startswith("placeholder_") or not spec["source_kind"].startswith("synthetic_object_pair_"):raise ValueError("review/source boundary 非法")
+        pair_id="op-"+digest(spec["level"],spec["relation_slot"],spec["relation"],*combo_a,*combo_b,*hashes[:4],spec["seed"])[:12]
+        for arm in ("a","b"):
+            target,reference=spec[f"target_{arm}"],spec[f"reference_{arm}"]
+            output.append({"pair_id":pair_id,"arm":arm.upper(),"pair_key":spec["pair_key"],"level":spec["level"],"relation_slot":spec["relation_slot"],"relation":spec["relation"],"target_object_id":target,"reference_object_id":reference,"object_combination":f"{target}->{reference}","instruction_text":spec[f"instruction_{arm}"],"init_state_id":spec[f"init_state_{arm}"],"scene_asset_sha256":hashes[0],"camera_config_sha256":hashes[1],"object_multiset_sha256":hashes[2],"matched_state_group_sha256":hashes[3],"matching_stratum":spec["matching_stratum"],"seed":spec["seed"],"model_revision":spec["model_revision"],"inference_config_sha256":hashes[4],"state_difference_whitelist":"active_object_assignment_and_geometry_only","goal_sync_review":spec["goal_sync_review"],"reachability_review":spec["reachability_review"],"execution_status":"PLANNED_NOT_RUN","real_environment_run":"false","source_kind":spec["source_kind"]})
+    relations=Counter(row["relation"] for row in specs);slots=Counter(row["relation_slot"] for row in specs);report={"pair_count":len(specs),"arm_count":len(output),"relation_coverage":dict(sorted(relations.items())),"relation_slot_coverage":dict(sorted(slots.items())),"unique_object_combinations":len({row["object_combination"] for row in output}),"all_goal_sync_reviews":"pending_human_review","all_reachability_reviews":"pending_replay","real_environment_runs":0,"boundary":"synthetic object-combination pair plan; relation fixed and object confounds only stratified, not eliminated"}
+    return output,report
+def write(path,rows):
+    path.parent.mkdir(parents=True,exist_ok=True)
+    with path.open("w",encoding="utf-8",newline="") as handle:writer=csv.DictWriter(handle,fieldnames=OUTPUT);writer.writeheader();writer.writerows(rows)
+def main():
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument("--spec",type=Path,required=True);p.add_argument("--output",type=Path,required=True);p.add_argument("--report",type=Path,required=True);a=p.parse_args();rows,report=build(a.spec);write(a.output,rows);a.report.parent.mkdir(parents=True,exist_ok=True);a.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8");print(f"PASS: pairs={report['pair_count']} combinations={report['unique_object_combinations']} execution=planned_not_run")
+if __name__=="__main__":main()

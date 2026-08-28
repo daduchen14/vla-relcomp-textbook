@@ -1,0 +1,19 @@
+{
+  "episode_id": "day12-example-a",
+  "target_object": "tomato_3",
+  "reference_object": "porcelain_bowl_3",
+  "relation": "On",
+  "source_kind": "synthetic_cpu_frames_not_mujoco_episode",
+  "real_environment_run": false,
+  "frames": [
+    {"step": 0, "target_z": 0.75, "target_gripper_contact": false, "target_reference_xy_distance": 0.42, "relation_satisfied": false},
+    {"step": 1, "target_z": 0.75, "target_gripper_contact": true, "target_reference_xy_distance": 0.40, "relation_satisfied": false},
+    {"step": 2, "target_z": 0.76, "target_gripper_contact": true, "target_reference_xy_distance": 0.39, "relation_satisfied": false},
+    {"step": 3, "target_z": 0.77, "target_gripper_contact": true, "target_reference_xy_distance": 0.36, "relation_satisfied": false},
+    {"step": 4, "target_z": 0.80, "target_gripper_contact": true, "target_reference_xy_distance": 0.34, "relation_satisfied": false},
+    {"step": 5, "target_z": 0.81, "target_gripper_contact": true, "target_reference_xy_distance": 0.31, "relation_satisfied": false},
+    {"step": 6, "target_z": 0.82, "target_gripper_contact": true, "target_reference_xy_distance": 0.28, "relation_satisfied": false},
+    {"step": 7, "target_z": 0.82, "target_gripper_contact": false, "target_reference_xy_distance": 0.27, "relation_satisfied": false},
+    {"step": 8, "target_z": 0.83, "target_gripper_contact": false, "target_reference_xy_distance": 0.02, "relation_satisfied": true}
+  ]
+}

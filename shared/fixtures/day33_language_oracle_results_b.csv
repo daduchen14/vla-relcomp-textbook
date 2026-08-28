@@ -1,0 +1,9 @@
+pair_id,arm,level,task_id,seed,init_state_id,target_object_id,start_relation,start_reference_id,goal_relation,goal_reference_id,instruction_text,target_contacted,target_lifted,reference_approached,relation_satisfied,success,source_kind
+qa,control,2,L2T4,97,q-init-0,tomato_6,next_to,vase_6,On,bowl_6,pick the tomato next to the vase and place it on the bowl,0,0,0,0,0,synthetic_language_oracle_challenge_not_model
+qa,oracle,2,L2T4,97,q-init-0,tomato_6,next_to,vase_6,On,bowl_6,TARGET=tomato_6 | START=next_to(vase_6) | ACTION=pick_and_place | GOAL=On(bowl_6),1,1,0,0,0,synthetic_language_oracle_challenge_not_model
+qb,control,1,L1T0,101,q-init-1,tomato_7,on_top_of,board_7,On,bowl_7,pick the tomato on the board and place it on the bowl,1,1,0,0,0,synthetic_language_oracle_challenge_not_model
+qb,oracle,1,L1T0,101,q-init-1,tomato_7,on_top_of,board_7,On,bowl_7,TARGET=tomato_7 | START=on_top_of(board_7) | ACTION=pick_and_place | GOAL=On(bowl_7),1,1,1,1,1,synthetic_language_oracle_challenge_not_model
+qc,control,0,L0T2,103,q-init-2,tomato_8,in,drawer_8,On,bowl_8,pick the tomato in the drawer and place it on the bowl,1,1,1,1,1,synthetic_language_oracle_challenge_not_model
+qc,oracle,0,L0T2,103,q-init-2,tomato_8,in,drawer_8,On,bowl_8,TARGET=tomato_8 | START=in(drawer_8) | ACTION=pick_and_place | GOAL=On(bowl_8),1,1,1,1,1,synthetic_language_oracle_challenge_not_model
+qd,control,2,L2T3,107,q-init-3,tomato_9,next_to,teapot_9,On,bowl_9,pick the tomato next to the teapot and place it on the bowl,1,1,1,1,1,synthetic_language_oracle_challenge_not_model
+qd,oracle,2,L2T3,107,q-init-3,tomato_9,next_to,teapot_9,On,bowl_9,TARGET=tomato_9 | START=next_to(teapot_9) | ACTION=pick_and_place | GOAL=On(bowl_9),1,1,0,0,0,synthetic_language_oracle_challenge_not_model

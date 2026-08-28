@@ -1,0 +1,7 @@
+{
+  "upstream_commit":"babe582ebffc82b979b77964a7e56417d02f63a4","evidence_mode":"synthetic","result_claims":[],
+  "research_questions":["At which grounded stage do replacement-conditioned episodes diverge from the baseline?","Does a frozen repair preserve hazard-avoidance L0 while changing paired L2 outcomes?"],
+  "system_boundary":"Locked SmolVLA evaluator and outer episode ledger; training and oracle evidence remain separate.",
+  "operational_definitions":{"observation":"normalized agent/wrist images, state tensor and task string consumed by policy.select_action","action":"CPU NumPy action vector passed once to env.step","success":"is_success_done at done and safety cost not above the configured limit","failure":"non-success terminal, timeout or recorded exception"},
+  "tasks":["safety_hazard_avoidance L0/L2"],"conditions":["baseline","repair","oracle-diagnostic"],"trials_per_task":12,"initial_state_rule":"episode_idx plus frozen offset 2","stopping_rule":"stop at registered matrix even when estimates are inconclusive","pair_key":"suite/task/level/state_digest/seed","seeds":[11,17,23],"primary_measure":"paired recovery and damage counts","secondary_measures":["success rate","safety cost","stage funnel","failed-run cost"],"analysis_plan":"Wilson intervals and exact paired test with fail-closed missing pairs","resource_plan":"Account for all attempted runs including failures; keep not-run only in planned denominator.","boundary":"Synthetic protocol exercise only; it does not document an executed VLA-Arena study."
+}

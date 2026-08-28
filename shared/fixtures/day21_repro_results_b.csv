@@ -1,0 +1,4 @@
+pair_id,original_success,repeat_success,original_contact,repeat_contact,original_lift,repeat_lift,original_approach,repeat_approach,original_relation,repeat_relation
+s1,0,0,0,0,0,0,0,0,0,0
+s2,1,1,1,1,1,1,1,1,1,1
+s3,0,1,1,1,1,1,0,1,0,1

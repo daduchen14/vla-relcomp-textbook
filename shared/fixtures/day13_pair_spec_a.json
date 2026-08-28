@@ -1,0 +1,13 @@
+{
+  "pair_name": "l0t0_surface_paraphrase",
+  "factor": "instruction_surface",
+  "task_selector": {"level": 0, "task_id": 0},
+  "instruction_b": "Pick up the tomato from the drawer's top layer, then set it atop the bowl located between the vase and the teapot.",
+  "model_id": "diagnostic_model_placeholder",
+  "model_revision": "fill_after_gate2_selection",
+  "seed": 13001,
+  "init_state_index": 2,
+  "inference_config_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "order_seed": 413,
+  "source_kind": "planned_matched_pair_not_model_result"
+}

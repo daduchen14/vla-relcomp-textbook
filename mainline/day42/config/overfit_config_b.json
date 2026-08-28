@@ -1,0 +1,1 @@
+{"seed":142,"trainable_prefix":"relation_adapter","learning_rate":0.03,"max_steps":1500,"log_every":125,"target_loss":0.002,"loss_weights":{"action":1.0,"pair_consistency":0.15},"source_kind":"synthetic_one_batch_config"}

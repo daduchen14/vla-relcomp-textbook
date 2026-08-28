@@ -1,0 +1,11 @@
+# macOS Finder metadata is not course content.
+.DS_Store
+
+# Python generates these caches automatically when code is imported or compiled.
+__pycache__/
+*.py[cod]
+
+# Local environments and learning outputs belong to each learner's machine.
+.venv/
+learner_outputs/*
+!learner_outputs/.gitignore

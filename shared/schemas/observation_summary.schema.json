@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Day 3 observation summary",
+  "type": "object",
+  "required": ["fixture_id", "source_kind", "keys", "arrays"],
+  "properties": {
+    "fixture_id": {"type": "string"},
+    "source_kind": {"const": "local_fixture_not_vla_arena_run"},
+    "keys": {"type": "array", "items": {"type": "string"}},
+    "arrays": {"type": "object"}
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "package_name": "synthetic_mini_baseline_a",
+  "locked_commit": "babe582ebffc82b979b77964a7e56417d02f63a4",
+  "model_id": "synthetic/model-beta",
+  "model_revision": "rev-b",
+  "protocol_lock_sha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+  "task_ids": [0, 1],
+  "trials_per_task": 2,
+  "seed_base": 25000,
+  "init_state_indices": [0, 1],
+  "synthetic_outcomes": {"0": [1, 0], "1": [1, 1]},
+  "source_kind": "synthetic_gate4_fixture"
+}

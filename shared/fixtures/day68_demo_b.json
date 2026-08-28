@@ -1,0 +1,1 @@
+{"demo_id":"public-entry-b","steps":["structure_check","minimal_table_b","route_check"],"fallbacks":{"route_check":"独立检查 Day 0 route manifest 和目标 F 模块","structure_check":"阅读失败项并只修复对应本地链接或结构","minimal_table_b":"核对新 B CSV、冻结 expected 与 clean output"}}

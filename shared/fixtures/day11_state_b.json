@@ -1,0 +1,11 @@
+{
+  "task_selector": {"level": 2, "task_id": 3},
+  "objects": {
+    "tomato_2": {"body_id": 105, "pos": [-0.36, 0.22, 0.73], "quat_wxyz": [0.9239, 0.0, 0.0, 0.3827]},
+    "porcelain_bowl_2": {"body_id": 204, "pos": [-0.35, 0.20, 0.79], "quat_wxyz": [1.0, 0.0, 0.0, 0.0]},
+    "tomato_3": {"body_id": 106, "pos": [0.41, -0.08, 0.75], "quat_wxyz": [1.0, 0.0, 0.0, 0.0]},
+    "porcelain_bowl_1": {"body_id": 203, "pos": [0.02, 0.48, 0.76], "quat_wxyz": [1.0, 0.0, 0.0, 0.0]}
+  },
+  "contacts": [["tomato_2", "porcelain_bowl_2"]],
+  "source_kind": "synthetic_cpu_challenge_not_mujoco_state"
+}

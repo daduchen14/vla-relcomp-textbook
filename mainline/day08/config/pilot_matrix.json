@@ -1,0 +1,10 @@
+{
+  "suite": "extrapolation_preposition_combinations",
+  "levels": [0, 1, 2],
+  "task_ids": [0, 1, 2, 3, 4],
+  "seeds": [7, 19, 31, 43, 59],
+  "init_state_indices": [0, 1, 2, 3, 4],
+  "num_trials_per_cell": 1,
+  "max_steps": 300,
+  "instruction_replacement": false
+}

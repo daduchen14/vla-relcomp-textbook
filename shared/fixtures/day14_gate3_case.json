@@ -1,0 +1,12 @@
+{
+  "case_id": "gate3-unfamiliar-failure-01",
+  "source_kind": "synthetic_gate_case_not_model_episode",
+  "task": {"level": 2, "task_id": 3, "target": "tomato_2", "reference": "porcelain_bowl_2", "relation": "On"},
+  "events": {"target_contacted": true, "target_lifted": true, "reference_approached": false, "relation_satisfied": false},
+  "observed_evidence": [
+    "target contact and lift probes triggered in order",
+    "target-reference XY distance did not meet the frozen approach-drop rule",
+    "locked goal predicate remained false at episode end"
+  ],
+  "forbidden_assumption": "Do not infer the model's internal representation directly from these events."
+}

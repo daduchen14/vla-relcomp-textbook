@@ -1,0 +1,24 @@
+{
+  "manifest_id": "fixture_day06_requirements",
+  "result_type": "synthetic dependency manifest; not a VLA experiment result",
+  "requirements": [
+    {
+      "module": "json",
+      "distribution": null,
+      "required": true,
+      "reason": "Python 标准库；用于读取和写入 JSON"
+    },
+    {
+      "module": "unittest",
+      "distribution": null,
+      "required": true,
+      "reason": "Python 标准库；用于运行免费本地测试"
+    },
+    {
+      "module": "fixture_package_not_installed",
+      "distribution": "fixture-package-not-installed",
+      "required": false,
+      "reason": "故意不存在的可选包，用于练习缺失依赖分支"
+    }
+  ]
+}

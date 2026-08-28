@@ -1,0 +1,9 @@
+{
+  "model": "smolvla",
+  "evaluator": "vla_arena/models/smolvla/evaluator.py",
+  "config": "vla_arena/configs/evaluation/smolvla.yaml",
+  "config_class": "Args",
+  "hooks": ["initialize_model", "run_episode", "run_task", "main"],
+  "requires_gpu": true,
+  "source_kind": "locked_upstream_static_map"
+}

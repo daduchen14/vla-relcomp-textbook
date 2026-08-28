@@ -1,0 +1,1 @@
+{"registered_pair_count":3,"required_conditions":["baseline","repair"],"required_arms":["control","counterfactual"],"missing_pair_policy":"fail_closed"}

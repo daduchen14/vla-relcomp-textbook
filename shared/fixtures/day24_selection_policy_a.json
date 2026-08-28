@@ -1,0 +1,9 @@
+{
+  "decision_name": "synthetic_primary_model_a",
+  "allowed_level": 0,
+  "expected_task_ids": [0, 1, 2, 3, 4],
+  "min_valid_per_task": 4,
+  "ranking": ["macro_success_rate", "worst_task_rate", "micro_success_rate", "model_id_lexical"],
+  "heldout_use": "L1_L2_report_only_never_select",
+  "source_kind": "synthetic_candidate_fixture_not_model_result"
+}

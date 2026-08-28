@@ -1,0 +1,11 @@
+oracle_pair_id,arm,valid,success,target_contacted,target_lifted,reference_approached,relation_satisfied
+p1,control,1,0,1,1,0,0
+p1,oracle,1,1,1,1,1,1
+p2,control,1,0,0,0,0,0
+p2,oracle,1,0,1,1,0,0
+p3,control,1,1,1,1,1,1
+p3,oracle,1,1,1,1,1,1
+p4,control,1,1,1,1,1,1
+p4,oracle,1,0,1,1,1,0
+p5,control,1,0,1,0,0,0
+p5,oracle,1,1,1,1,1,1

@@ -1,0 +1,8 @@
+{
+  "schema_version": "day12_event_thresholds_v1",
+  "contact_consecutive_frames": 2,
+  "lift_delta_m": 0.04,
+  "approach_drop_m": 0.05,
+  "approach_consecutive_frames": 2,
+  "notes": "教学预登记阈值；正式 pilot 前冻结，不能看 L1/L2 结果后调参"
+}

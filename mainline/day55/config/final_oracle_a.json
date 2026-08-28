@@ -1,0 +1,1 @@
+{"registered_episode_count":5,"required_conditions":["baseline","repair","language_oracle","visual_oracle"],"oracle_role":"diagnostic_only","privileged_information":{"language_oracle":"BDDL target/reference relation truth","visual_oracle":"simulator target/reference object boxes"}}

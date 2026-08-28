@@ -1,0 +1,1 @@
+{"registered_before_results":true,"registered_levels":["L1","L2"],"primary_metric":"paired_success_rate_delta","minimum_delta_by_level":{"L1":0.15,"L2":0.15},"pooling_for_primary_conclusion":false}

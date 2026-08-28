@@ -1,0 +1,1 @@
+{"seed":43,"learning_rate":0.03,"max_steps":160,"eval_every":5,"save_every":10,"early_stopping_patience":3,"min_delta":0.0005,"interrupt_after":18,"runtime":"free_cpu_toy"}

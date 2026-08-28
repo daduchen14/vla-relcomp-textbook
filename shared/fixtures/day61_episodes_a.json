@@ -1,0 +1,5 @@
+{"evidence_mode":"synthetic","episodes":[
+{"episode_id":"a-e03","suite":"safety_dynamic_obstacles","level":1,"condition":"repair","seed":3,"outcome":{"success":false,"cost":2.5},"status":"completed"},
+{"episode_id":"a-e01","suite":"safety_dynamic_obstacles","level":0,"condition":"baseline","seed":1,"outcome":{"success":true,"cost":0.0},"status":"completed"},
+{"episode_id":"a-e04","suite":"safety_dynamic_obstacles","level":1,"condition":"repair","seed":4,"outcome":{"success":false,"cost":0.0},"status":"failed"},
+{"episode_id":"a-e02","suite":"safety_dynamic_obstacles","level":0,"condition":"baseline","seed":2,"outcome":{"success":false,"cost":1.0},"status":"completed"}]}

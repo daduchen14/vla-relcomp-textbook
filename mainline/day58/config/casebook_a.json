@@ -1,0 +1,1 @@
+{"selection_method":"salted_sha256_within_stratum","salt":"vla-relcomp-casebook-a-v1","strata":["stable_success","recovery","damage","stable_failure"],"quota_per_stratum":{"stable_success":1,"recovery":1,"damage":1,"stable_failure":1}}

@@ -1,0 +1,11 @@
+pair_id,arm,level,task_id,seed,init_state_id,target_object_id,start_relation,start_reference_id,goal_relation,goal_reference_id,instruction_text,target_contacted,target_lifted,reference_approached,relation_satisfied,success,source_kind
+la,control,0,L0T0,71,init-0,tomato_1,next_to,cereal_1,On,bowl_1,pick the tomato next to cereal and place it on the bowl,0,0,0,0,0,synthetic_language_oracle_results_not_model
+la,oracle,0,L0T0,71,init-0,tomato_1,next_to,cereal_1,On,bowl_1,TARGET=tomato_1 | START=next_to(cereal_1) | ACTION=pick_and_place | GOAL=On(bowl_1),1,1,1,1,1,synthetic_language_oracle_results_not_model
+lb,control,1,L1T1,73,init-1,tomato_2,in,drawer_2,On,bowl_2,pick the tomato in the drawer and place it on the bowl,1,1,0,0,0,synthetic_language_oracle_results_not_model
+lb,oracle,1,L1T1,73,init-1,tomato_2,in,drawer_2,On,bowl_2,TARGET=tomato_2 | START=in(drawer_2) | ACTION=pick_and_place | GOAL=On(bowl_2),1,1,1,1,1,synthetic_language_oracle_results_not_model
+lc,control,2,L2T2,79,init-2,tomato_3,on_top_of,board_3,On,bowl_3,pick the tomato on the board and place it on the bowl,1,1,0,0,0,synthetic_language_oracle_results_not_model
+lc,oracle,2,L2T2,79,init-2,tomato_3,on_top_of,board_3,On,bowl_3,TARGET=tomato_3 | START=on_top_of(board_3) | ACTION=pick_and_place | GOAL=On(bowl_3),1,1,0,0,0,synthetic_language_oracle_results_not_model
+ld,control,0,L0T3,83,init-3,tomato_4,next_to,plate_4,On,bowl_4,pick the tomato next to the plate and place it on the bowl,1,1,1,1,1,synthetic_language_oracle_results_not_model
+ld,oracle,0,L0T3,83,init-3,tomato_4,next_to,plate_4,On,bowl_4,TARGET=tomato_4 | START=next_to(plate_4) | ACTION=pick_and_place | GOAL=On(bowl_4),1,1,1,1,1,synthetic_language_oracle_results_not_model
+le,control,1,L1T4,89,init-4,tomato_5,in,drawer_5,On,bowl_5,pick the tomato in the drawer and place it on the bowl,1,1,1,1,1,synthetic_language_oracle_results_not_model
+le,oracle,1,L1T4,89,init-4,tomato_5,in,drawer_5,On,bowl_5,TARGET=tomato_5 | START=in(drawer_5) | ACTION=pick_and_place | GOAL=On(bowl_5),1,1,0,0,0,synthetic_language_oracle_results_not_model

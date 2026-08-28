@@ -1,0 +1,7 @@
+episode_id,condition,success
+b01,baseline,true
+b02,baseline,true
+b03,baseline,false
+b04,repair,false
+b05,repair,true
+b06,repair,false

@@ -1,0 +1,9 @@
+episode_id,step,target_object_id,target_distance_m,nearest_object_id,contact_object_ids
+b1,0,can_1,0.10,can_1,
+b1,1,can_1,0.05,can_1,
+b1,2,can_1,0.04,can_1,
+b1,3,can_1,0.03,can_1,can_1
+b2,0,apple_2,0.20,cup_2,
+b2,1,apple_2,0.05,cup_2,cup_2
+b2,2,apple_2,0.04,apple_2,
+b2,3,apple_2,0.09,apple_2,apple_2

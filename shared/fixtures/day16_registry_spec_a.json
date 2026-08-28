@@ -1,0 +1,17 @@
+{
+  "batch_name": "synthetic_registry_a",
+  "protocol_lock_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+  "upstream_commit": "babe582ebffc82b979b77964a7e56417d02f63a4",
+  "code_commit": "synthetic-code-commit-a",
+  "model_id": "synthetic/model-alpha",
+  "model_revision": "synthetic-revision-a1",
+  "inference_config_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "suite": "extrapolation_preposition_combinations",
+  "level": 0,
+  "episodes": [
+    {"task_id": 0, "seed": 16001, "init_state_index": 0},
+    {"task_id": 1, "seed": 16002, "init_state_index": 1},
+    {"task_id": 2, "seed": 16003, "init_state_index": 2}
+  ],
+  "source_kind": "synthetic_registry_fixture_not_model_result"
+}

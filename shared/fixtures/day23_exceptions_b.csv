@@ -1,0 +1,2 @@
+episode_id,exception_type,exception_message
+q3,RuntimeError,synthetic adapter fixture

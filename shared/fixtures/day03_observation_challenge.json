@@ -1,0 +1,10 @@
+{
+  "fixture_id": "day03_observation_changed_input",
+  "observation": {
+    "agentview_image": {"dtype": "uint8", "values": [[[0, 5, 10], [15, 20, 25], [30, 35, 40]], [[45, 50, 55], [60, 65, 70], [75, 80, 85]]]},
+    "robot0_eye_in_hand_image": {"dtype": "uint8", "values": [[[9, 8, 7]], [[6, 5, 4]], [[3, 2, 1]]]},
+    "robot0_eef_pos": {"dtype": "float64", "values": [-0.4, 0.0, 0.8]},
+    "robot0_eef_quat": {"dtype": "float64", "values": [0.0, 0.70710678, 0.0, 0.70710678]},
+    "robot0_gripper_qpos": {"dtype": "float64", "values": [-0.01, 0.01]}
+  }
+}

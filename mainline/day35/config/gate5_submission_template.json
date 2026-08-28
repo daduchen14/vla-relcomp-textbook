@@ -1,0 +1,10 @@
+{
+  "prediction_timestamp_order": "before_running_challenge",
+  "prediction_before_analysis": "填写至少 40 字的事前预测，不得先查看 B report。",
+  "selected_conclusion": "FILL_ONE_OF_ALLOWED_LABELS",
+  "evidence_metrics": [],
+  "alternative_explanations": ["至少 30 字", "至少 30 字"],
+  "falsifier": "至少 50 字的下一项单因素检验",
+  "allowed_claim": "说明 synthetic 证据允许的有限主张",
+  "forbidden_claim": "说明不能作 causal 内部机制结论"
+}

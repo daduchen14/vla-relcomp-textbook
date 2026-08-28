@@ -1,0 +1,1 @@
+Gate 5 先看 conversion funnel 的最大下降，但它只是定位可观测断点。relation pair 的 pair asymmetry 描述关系条件下的行为翻转，仍受匹配质量影响。language oracle 与 visual oracle 必须同时报告 recovery 和 damage；B 中两者净效果接近，不能为了进入修复而挑一个故事，因此结论是 insufficient evidence。alternative 包括动作随机性与 probe 阈值/同步误差。下一步 falsifier 是在预登记的新 pair 上增加匹配重复，并分别只改变一种 oracle。所有数字来自 synthetic 输入，只证明教材统计和判断规则能运行，不能作 causal 模型机制结论。

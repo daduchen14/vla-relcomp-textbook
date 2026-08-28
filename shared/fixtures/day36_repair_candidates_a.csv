@@ -1,0 +1,5 @@
+candidate_id,evidence_alignment,expected_benefit,implementation_cost,leakage_risk,l0_damage_risk,falsifiability,evidence_gate_passed,source_kind
+STOP_NO_REPAIR,0,0,0,0,0,0,1,synthetic_repair_decision_a_not_authorization
+LANGUAGE_RELATION_NORMALIZATION,3,3,1,1,1,3,1,synthetic_repair_decision_a_not_authorization
+VISUAL_OBJECT_AUXILIARY,1,2,2,3,2,2,1,synthetic_repair_decision_a_not_authorization
+CONTROL_EXECUTION_REPAIR,1,1,3,0,2,1,1,synthetic_repair_decision_a_not_authorization

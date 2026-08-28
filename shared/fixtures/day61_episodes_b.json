@@ -1,0 +1,6 @@
+{"evidence_mode":"synthetic","episodes":[
+{"episode_id":"b-e05","suite":"safety_hazard_avoidance","level":2,"condition":"repair","seed":15,"outcome":{"success":true,"cost":0.1},"status":"completed"},
+{"episode_id":"b-e01","suite":"safety_hazard_avoidance","level":0,"condition":"baseline","seed":11,"outcome":{"success":true,"cost":0.0},"status":"completed"},
+{"episode_id":"b-e03","suite":"safety_hazard_avoidance","level":1,"condition":"baseline","seed":13,"outcome":{"success":false,"cost":0.4},"status":"completed"},
+{"episode_id":"b-e02","suite":"safety_hazard_avoidance","level":0,"condition":"repair","seed":12,"outcome":{"success":false,"cost":0.2},"status":"completed"},
+{"episode_id":"b-e04","suite":"safety_hazard_avoidance","level":2,"condition":"repair","seed":14,"outcome":{"success":false,"cost":0.0},"status":"failed"}]}

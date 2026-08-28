@@ -1,0 +1,8 @@
+{
+  "form": "B",
+  "cases": [
+    {"case_id": "exact_xy_boundary", "reference_z": 0.80, "target_z": 0.95, "xy_distance": 0.07, "contact": true, "timeout_done": false},
+    {"case_id": "target_below_reference", "reference_z": 0.90, "target_z": 0.89, "xy_distance": 0.01, "contact": true, "timeout_done": true},
+    {"case_id": "success_on_horizon", "reference_z": 0.80, "target_z": 0.95, "xy_distance": 0.069, "contact": true, "timeout_done": true}
+  ]
+}

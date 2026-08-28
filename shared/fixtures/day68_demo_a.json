@@ -1,0 +1,1 @@
+{"demo_id":"public-entry-a","steps":["route_check","structure_check","minimal_table_a"],"fallbacks":{"route_check":"打开 Day 0 并核对 F01–F18 路由","structure_check":"从 validator 输出定位缺失路径或模板段落","minimal_table_a":"核对 Python、输入 hash、expected JSON 与输出目录是否已存在"}}

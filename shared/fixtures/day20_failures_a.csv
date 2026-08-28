@@ -1,0 +1,7 @@
+episode_id,valid,success,target_contacted,target_lifted,reference_approached,relation_satisfied
+a0,1,1,1,1,1,1
+a1,1,0,0,0,0,0
+a2,1,0,1,0,0,0
+a3,1,0,1,1,0,0
+a4,1,0,1,1,1,0
+a5,0,,0,0,0,0

@@ -1,0 +1,1 @@
+{"conditions":["baseline","repair"],"stages":["target_contacted","target_lifted","reference_approached","relation_satisfied"],"episodes_per_condition":5}

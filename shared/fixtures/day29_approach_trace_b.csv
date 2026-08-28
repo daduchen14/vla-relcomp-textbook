@@ -1,0 +1,15 @@
+episode_id,step,reference_object_id,target_reference_distance_m,nearest_other_id,nearest_other_distance_m,lifted
+r1,0,drawer_1,0.40,shelf_1,0.35,0
+r1,1,drawer_1,0.20,shelf_1,0.28,1
+r1,2,drawer_1,0.08,shelf_1,0.22,1
+r1,3,drawer_1,0.07,shelf_1,0.20,1
+r1,4,drawer_1,0.06,shelf_1,0.18,1
+r2,0,basket_2,0.42,plate_2,0.30,0
+r2,1,basket_2,0.32,plate_2,0.20,1
+r2,2,basket_2,0.25,plate_2,0.07,1
+r2,3,basket_2,0.22,plate_2,0.06,1
+r2,4,basket_2,0.20,plate_2,0.05,1
+r3,0,box_3,0.50,vase_3,0.55,0
+r3,1,box_3,0.45,vase_3,0.50,1
+r3,2,box_3,0.44,vase_3,0.49,1
+r3,3,box_3,0.43,vase_3,0.48,1

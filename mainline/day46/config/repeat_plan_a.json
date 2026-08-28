@@ -1,0 +1,1 @@
+{"run_prefix":"formal-a","repeat_seeds":[2,3],"output_root":"learner_outputs/mainline/day46","per_run_resource_budget":{"gpu_count":1,"max_gpu_hours":6,"max_storage_gib":40},"total_gpu_hours_cap":12,"authorized_for_gpu":false,"commands_run":false}

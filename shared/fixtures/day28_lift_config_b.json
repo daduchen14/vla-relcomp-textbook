@@ -1,0 +1,1 @@
+{"primary_lift_threshold_m":0.030,"sustained_lift_steps":3,"sensitivity_thresholds_m":[0.020,0.030,0.040],"source_kind":"synthetic_lift_challenge_not_mujoco"}

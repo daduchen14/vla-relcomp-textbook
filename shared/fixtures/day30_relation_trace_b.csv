@@ -1,0 +1,17 @@
+episode_id,step,relation,target_object_id,reference_object_id,official_predicate,geometric_proxy,gripper_target_contact
+q1,0,In,orange_1,drawer_1,0,0,1
+q1,1,In,orange_1,drawer_1,1,1,0
+q1,2,In,orange_1,drawer_1,1,1,0
+q1,3,In,orange_1,drawer_1,1,1,0
+q2,0,On,cup_2,plate_2,0,0,0
+q2,1,On,cup_2,plate_2,1,1,0
+q2,2,On,cup_2,plate_2,1,1,0
+q2,3,On,cup_2,plate_2,0,0,0
+q3,0,On,can_3,tray_3,0,0,1
+q3,1,On,can_3,tray_3,1,1,0
+q3,2,On,can_3,tray_3,1,1,0
+q3,3,On,can_3,tray_3,1,0,0
+q4,0,In,lemon_4,basket_4,0,0,0
+q4,1,In,lemon_4,basket_4,0,1,0
+q4,2,In,lemon_4,basket_4,0,1,0
+q4,3,In,lemon_4,basket_4,0,0,0

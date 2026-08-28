@@ -1,0 +1,12 @@
+# 教材侧的只读追踪配置；不要覆盖锁定 upstream 的原配置。
+model_name: "random"
+task_suite_name: "extrapolation_preposition_combinations"
+task_level: 0
+num_steps_wait: 10
+num_trials_per_task: 1
+env_img_res: 256
+save_video_mode: "first_success_failure"
+local_log_dir: "./experiments/logs"
+use_local_log: true
+use_wandb: false
+seed: 42

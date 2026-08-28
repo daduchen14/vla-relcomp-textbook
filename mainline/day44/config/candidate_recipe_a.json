@@ -1,0 +1,1 @@
+{"recipe_id":"toy-adapter-stable-a-v1","method":"adapter_only","model_init_seed":4400,"learning_rate":0.02,"batch_size":4,"steps":80,"grad_clip_norm":0.5,"seeds":[44,45,46],"relative_final_loss_spread_limit":0.25,"nonfinite_policy":"abort_before_step","runtime":"free_cpu_toy"}
