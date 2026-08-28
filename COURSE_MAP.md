@@ -90,7 +90,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 47 | 评测 L0 保持 | catastrophic damage、保持率 | L0 retention | 📘 [教材已编写](mainline/day47/README.md)；真实 checkpoint L0 eval 待执行 |
 | 48 | 首次评测 L1/L2 泛化 | 保留测试、预注册分析 | OOD results | 📘 [教材已编写](mainline/day48/README.md)；真实 held-out L1/L2 待执行 |
 | 49 | 做最小消融和成本匹配对照 | ablation、算力公平、单变量 | ablation table | 📘 [教材已编写](mainline/day49/README.md)；正式 cost-matched runs 待执行 |
-| 50 | 继续、回退或接受负结果 | go/no-go、有限结论 | repair conclusion；Gate 6 | ⬜ 未编写 |
+| 50 | 继续、回退或接受负结果 | go/no-go、有限结论 | repair conclusion；Gate 6 | 📘 [教材与 Gate 6 rehearsal 已编写](mainline/day50/README.md)；正式证据缺失，Gate 未通过 |
 
 **Gate 6：** 从原始 registry 重建基线—修复—消融比较，检查 L0 保持、L1/L2 改善和多 seed 稳定，禁止只选最好一次。
 
