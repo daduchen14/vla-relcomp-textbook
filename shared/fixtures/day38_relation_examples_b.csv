@@ -1,0 +1,4 @@
+sample_id,level,target_object_id,start_relation,start_reference_ids,goal_relation,goal_reference_ids,raw_instruction,source_kind
+rb1,0,tomato_5,NextTo,cutting_board_5,On,bowl_5,pick tomato beside the board then put it on the bowl,synthetic_relation_module_b_not_model
+rb2,0,tomato_6,In,drawer_6,On,bowl_6,take the tomato from the drawer to the bowl,synthetic_relation_module_b_not_model
+rb3,0,tomato_7,Between,vase_7+plate_7,On,bowl_7,pick the tomato between vase and plate and place on bowl,synthetic_relation_module_b_not_model

@@ -1,0 +1,5 @@
+sample_id,level,target_object_id,start_relation,start_reference_ids,goal_relation,goal_reference_ids,raw_instruction,source_kind
+ra1,0,tomato_1,NextTo,cereal_1,On,porcelain_bowl_1,pick the tomato next to the cereal and place it on the bowl,synthetic_relation_module_a_not_model
+ra2,0,tomato_2,On,cutting_board_2,On,porcelain_bowl_2,pick the tomato on the cutting board and place it on the bowl,synthetic_relation_module_a_not_model
+ra3,0,tomato_3,In,drawer_3,On,porcelain_bowl_3,pick the tomato in the drawer and place it on the bowl,synthetic_relation_module_a_not_model
+ra4,0,tomato_4,Between,cabinet_4+teapot_4,On,porcelain_bowl_4,pick the tomato between the cabinet and teapot and place it on the bowl,synthetic_relation_module_a_not_model
