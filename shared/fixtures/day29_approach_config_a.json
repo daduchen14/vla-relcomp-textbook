@@ -1,0 +1,1 @@
+{"entry_threshold_m":0.12,"sustained_entry_steps":2,"minimum_progress_m":0.08,"trend_epsilon_m":0.005,"wrong_reference_threshold_m":0.10,"wrong_reference_sustained_steps":2,"source_kind":"synthetic_approach_trace_not_mujoco"}
