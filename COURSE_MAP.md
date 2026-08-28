@@ -64,7 +64,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 28 | 完善抓取/抬升探针 | 支撑面、夹爪接触、持续阈值 | lift detector、敏感性图 | 📘 [教材已编写](mainline/day28/README.md)；真实 MuJoCo trace/视频校准待执行 |
 | 29 | 完善搬运到参照区域探针 | 轨迹距离、趋势、错误参照物 | approach detector | 📘 [教材已编写](mainline/day29/README.md)；真实 MuJoCo trajectory 待执行 |
 | 30 | 完善终态空间关系探针 | 关系操作定义 | relation detector | 📘 [教材已编写](mainline/day30/README.md)；真实 evaluator/MuJoCo trace 待执行 |
-| 31 | 批量构造关系最小反事实对 | matching、pair asymmetry | relation pair set | ⬜ 未编写 |
+| 31 | 批量构造关系最小反事实对 | matching、pair asymmetry | relation pair set | 📘 [教材已编写](mainline/day31/README.md)；真实 CBDDL/replay/model pair 待执行 |
 | 32 | 批量构造对象组合匹配对 | 混淆因素、组合覆盖 | object-combination pair set | ⬜ 未编写 |
 | 33 | 运行语言规范化 oracle | 结构化三元组、恢复/损伤 | language oracle 结果 | ⬜ 未编写 |
 | 34 | 运行视觉对象提示 oracle | 仿真真值、特权边界、可撤销干预 | visual oracle 结果 | ⬜ 未编写 |
