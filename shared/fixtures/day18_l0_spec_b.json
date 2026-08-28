@@ -1,0 +1,10 @@
+{
+  "batch_name": "synthetic_l0_plan_b_challenge",
+  "level": 0,
+  "seed_base": 18100,
+  "init_state_indices": [2, 4, 6],
+  "protocol_lock_sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+  "model_id": "synthetic/model-beta",
+  "model_revision": "synthetic-revision-b7",
+  "source_kind": "planned_l0_challenge_not_model_result"
+}
