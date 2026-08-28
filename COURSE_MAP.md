@@ -82,7 +82,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 39 | 构造平衡/对比/规范化样本 | sampling、pair 标签、质量 | training pairs | 📘 [教材已编写](mainline/day39/README.md)；真实 tensor/action 数据待接入 |
 | 40 | 定义损失、可训练与冻结参数 | loss、梯度、parameter groups | trainability report | 📘 [教材已编写](mainline/day40/README.md)；真实 policy 参数/梯度待验证 |
 | 41 | 配置 LoRA/轻量微调、显存与 checkpoint | batch、累积、混合精度、LoRA | bounded train config | 📘 [教材已编写](mainline/day41/README.md)；真实 CUDA profile/checkpoint 待执行 |
-| 42 | 用极小数据 one-batch overfit | 闭环、loss、数据/代码诊断 | overfit smoke evidence | ⬜ 未编写 |
+| 42 | 用极小数据 one-batch overfit | 闭环、loss、数据/代码诊断 | overfit smoke evidence | 📘 [教材已编写](mainline/day42/README.md)；真实 SmolVLA one-batch 待执行 |
 | 43 | 运行短训练 pilot并检查恢复 | 日志、早停、resume | training pilot | ⬜ 未编写 |
 | 44 | 处理稳定性并冻结训练配置 | 数值稳定、seed、异常 | frozen recipe | ⬜ 未编写 |
 | 45 | 正式训练 seed 1 | 资源记录、测试集隔离 | checkpoint 1 | ⬜ 未编写 |

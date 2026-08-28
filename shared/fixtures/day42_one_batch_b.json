@@ -1,0 +1,1 @@
+{"source_kind":"synthetic_one_batch_b_not_vla","pairs":[{"pair_id":"qa","control_features":[0.2,0.8,0.1,-0.2],"normalized_features":[0.3,0.7,0.15,-0.1],"action_target":[0.0,0.25]},{"pair_id":"qb","control_features":[-0.4,0.3,0.9,0.1],"normalized_features":[-0.3,0.4,0.8,0.2],"action_target":[0.35,-0.2]}]}
