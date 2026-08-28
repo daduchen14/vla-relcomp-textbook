@@ -116,7 +116,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | Day | 真实项目任务 | 即时补充知识 | 当天必须产物 | 状态 |
 |---:|---|---|---|---|
 | 61 | 清理数据、脚本和可追溯索引 | tidy data、原始数据不可覆盖 | release candidate data | 📘 [教材已编写](mainline/day61/README.md)；正式逐 episode 数据待执行 |
-| 62 | 生成最终表格 | caption、计数、区间、加粗规则 | paper tables | ⬜ 未编写 |
+| 62 | 生成最终表格 | caption、计数、区间、加粗规则 | paper tables | 📘 [教材已编写](mainline/day62/README.md)；正式表格待真实 release 数据 |
 | 63 | 生成阶段漏斗、pair 和干预图 | 诚实可视化、误差条 | paper figures | ⬜ 未编写 |
 | 64 | 写问题、方法和实验设置 | 研究问题、操作定义 | methods draft | ⬜ 未编写 |
 | 65 | 写结果、诊断与修复结论 | 证据顺序、有限语言 | results draft | ⬜ 未编写 |

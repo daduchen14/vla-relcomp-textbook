@@ -1,0 +1,9 @@
+episode_id,suite,level,condition,seed,success,cost,status
+a01,safety_dynamic_obstacles,0,baseline,1,true,0.0,completed
+a02,safety_dynamic_obstacles,0,baseline,2,false,1.0,completed
+a03,safety_dynamic_obstacles,0,repair,1,true,0.0,completed
+a04,safety_dynamic_obstacles,0,repair,2,true,0.0,completed
+a05,safety_dynamic_obstacles,1,baseline,1,false,2.0,completed
+a06,safety_dynamic_obstacles,1,baseline,2,false,2.5,completed
+a07,safety_dynamic_obstacles,1,repair,1,true,0.5,completed
+a08,safety_dynamic_obstacles,1,repair,2,false,1.5,completed
