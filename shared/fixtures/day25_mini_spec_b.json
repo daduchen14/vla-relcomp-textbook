@@ -1,0 +1,13 @@
+{
+  "package_name": "synthetic_mini_baseline_b_challenge",
+  "locked_commit": "babe582ebffc82b979b77964a7e56417d02f63a4",
+  "model_id": "synthetic/model-epsilon",
+  "model_revision": "rev-e",
+  "protocol_lock_sha256": "abababababababababababababababababababababababababababababababab",
+  "task_ids": [2, 4],
+  "trials_per_task": 3,
+  "seed_base": 26000,
+  "init_state_indices": [2, 0, 1],
+  "synthetic_outcomes": {"2": [0, 1, 0], "4": [1, 1, 0]},
+  "source_kind": "synthetic_gate4_challenge"
+}
