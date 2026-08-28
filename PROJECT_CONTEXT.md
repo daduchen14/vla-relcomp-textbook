@@ -32,6 +32,6 @@
 
 - Day 0：已建立诊断与跳过机制，不计入 70 天。
 - F01–F18：由旧 Day 1–18 迁移而来，内容只作机械路径更新，不计入主线。
-- mainline Day 1–69：教材已编写；Day 3 仍标记为代表性样章，下一编写入口为 Day 70。
-- 学习者完成数仍为 `0 / 70`；Gate 1–7 没有学习者通过证据，真实 episode、模型 pilot、四段事件视频抽查、oracle pilot 和中断恢复均未运行。
-- Day 8–69 的静态源码契约、CPU fixture/toy backward/optimizer/pilot/stability/config/launch/repeat/retention/OOD/ablation/manifest/clean-room/provenance/pair/oracle/funnel/statistics/casebook/resource/results-lock/release/table/figure/methods/results/report/reproduction/demo/defense math、Gate 1–7 rehearsal、planned registry/pair sets/repair decision/L0 manifest/repair module/training pairs、合成分析/复现/假设/行为/oracle probes 只是教材验收，不是 VLA-Arena/MuJoCo/模型结果；后续从 Day 70 顺序制作并继续分离三类状态。
+- mainline Day 1–70：教材已全部编写；Day 3 保留代表性样章，下一入口为全仓免费验收与 Draft PR 审阅。
+- 学习者完成数仍为 `0 / 70`；Gate 1–8 没有学习者通过证据，真实 episode、模型 pilot、四段事件视频抽查、oracle pilot、中断恢复和 Gate 8 live oral 均未运行。
+- Day 8–70 的静态源码契约、CPU fixture/toy backward/optimizer/pilot/stability/config/launch/repeat/retention/OOD/ablation/manifest/clean-room/provenance/pair/oracle/funnel/statistics/casebook/resource/results-lock/release/table/figure/methods/results/report/reproduction/demo/defense/capstone math、Gate 1–8 rehearsal、planned registry/pair sets/repair decision/L0 manifest/repair module/training pairs、合成分析/复现/假设/行为/oracle probes 只是教材验收，不是 VLA-Arena/MuJoCo/模型结果。

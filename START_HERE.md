@@ -34,3 +34,7 @@ python3 shared/scripts/course_demo.py
 - `fixture/synthetic`：只验证代码、统计或写作机制。
 - `静态源码事实`：从锁定 commit 精确读取，未执行 simulator。
 - `真实运行`：需 raw episode、版本和资源证据；GPU/MuJoCo 未运行时不得声称完成。
+
+## 主线终点
+
+教材 Day 1–70 已全部编写，但学习者进度仍从 `0 / 70` 开始。完成 Day 69 后进入 [Day 70 / Gate 8](mainline/day70/README.md)：必须由学习者在 fresh clone 中限时、不看答案完成核心模块、现场改参和口述；机器 rehearsal 或 Agent 测试不能代替通过。
