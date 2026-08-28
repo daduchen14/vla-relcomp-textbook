@@ -1,0 +1,7 @@
+{
+  "source_kind": "synthetic_hypothesis_challenge_not_result",
+  "hypotheses": [
+    {"hypothesis_id":"H_REFERENCE_SELECTION","claim":"参照物选择错误阻断接近阶段","primary_event":"approach","observable_metric":"paired_approach_recovery_rate","numerator":"reference oracle 后 approach 0→1 的有效 pair 数","denominator":"baseline lift=1 approach=0 且两臂有效的 pair 数","intervention":"visual_reference_oracle","baseline_arm":"unaltered observation","intervention_arm":"reference mask overlay","directional_prediction":"recovery_rate >= 0.25","falsifier":"recovery_rate < 0.25 且 waypoint oracle 有恢复","alternative_explanations":["搬运控制偏航","approach threshold 假阴"],"control_variables":["task_id","seed","init_state_index","model_revision","protocol_lock_sha256"]},
+    {"hypothesis_id":"H_TERMINAL_PRECISION","claim":"终态动作精度阻断关系满足","primary_event":"relation","observable_metric":"paired_terminal_recovery_rate","numerator":"terminal oracle 后 relation 0→1 的有效 pair 数","denominator":"baseline approach=1 relation=0 且两臂有效的 pair 数","intervention":"terminal_action_oracle","baseline_arm":"policy terminal actions","intervention_arm":"oracle terminal segment","directional_prediction":"recovery_rate >= 0.25","falsifier":"recovery_rate < 0.25 且 relation paraphrase 有恢复","alternative_explanations":["关系语言 grounding 错误","relation probe/谓词不一致"],"control_variables":["task_id","seed","init_state_index","model_revision","protocol_lock_sha256"]}
+  ]
+}
