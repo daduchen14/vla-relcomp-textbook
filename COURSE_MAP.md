@@ -68,7 +68,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 32 | 批量构造对象组合匹配对 | 混淆因素、组合覆盖 | object-combination pair set | 📘 [教材已编写](mainline/day32/README.md)；真实 task/replay/model pair 待执行 |
 | 33 | 运行语言规范化 oracle | 结构化三元组、恢复/损伤 | language oracle 结果 | 📘 [教材已编写](mainline/day33/README.md)；真实 paired oracle pilot 待执行 |
 | 34 | 运行视觉对象提示 oracle | 仿真真值、特权边界、可撤销干预 | visual oracle 结果 | 📘 [教材已编写](mainline/day34/README.md)；真实 rendered/model oracle pilot 待执行 |
-| 35 | 汇总四段转化、pair asymmetry 和 oracle 效应 | 效应量、结论边界 | diagnosis table；Gate 5 | ⬜ 未编写 |
+| 35 | 汇总四段转化、pair asymmetry 和 oracle 效应 | 效应量、结论边界 | diagnosis table；Gate 5 | 📘 [教材与 Gate 5 rehearsal 已编写](mainline/day35/README.md)；真实 Gate 未通过 |
 
 **Gate 5：** 对未见 pair 先预测，再运行探针和干预；允许结论为“证据不足”，不得强造修复故事。
 

@@ -35,4 +35,4 @@
 
 ## 当前边界
 
-V2 迁移和 Day 1–34 教材已经完成；下一编写入口是 Day 35。学习者 Gate 1–4、模型 pilot、formal baseline 与真实运行/探针/干预尚无证据。后续教材必须继续按 [COURSE_MAP.md](COURSE_MAP.md) 和 [AUTHORING_RULES.md](AUTHORING_RULES.md) 顺序制作，保持“教材已编写 / 学习者已完成 / GPU 待验证”分离。
+V2 迁移和 Day 1–35 教材已经完成；下一编写入口是 Day 36。学习者 Gate 1–5、模型 pilot、formal baseline 与真实运行/探针/干预尚无证据。后续教材必须继续按 [COURSE_MAP.md](COURSE_MAP.md) 和 [AUTHORING_RULES.md](AUTHORING_RULES.md) 顺序制作，保持“教材已编写 / 学习者已完成 / GPU 待验证”分离。

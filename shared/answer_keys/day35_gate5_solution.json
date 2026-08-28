@@ -1,0 +1,18 @@
+{
+  "prediction_timestamp_order": "before_running_challenge",
+  "prediction_before_analysis": "我预期 B 的后半段转化会下降，但两类 oracle 的净效果可能接近，因此先选择证据不足而不是强行归因。",
+  "selected_conclusion": "INSUFFICIENT_EVIDENCE",
+  "evidence_metrics": [
+    "baseline.largest_conversion_drop",
+    "relation_pair.pair_asymmetry",
+    "language_oracle.net_effect",
+    "visual_oracle.net_effect"
+  ],
+  "alternative_explanations": [
+    "小样本中的动作执行随机性可能同时稀释两类 oracle 的恢复与损伤差异。",
+    "四段 probe 的阈值或日志同步误差可能把真实阶段变化归入相邻阶段。"
+  ],
+  "falsifier": "在预登记的新 matched pairs 上增加重复，并分别只运行语言或视觉单因素干预；若净效应差仍小于冻结阈值，就保留证据不足。",
+  "allowed_claim": "synthetic Gate rehearsal 支持统计器与有限决策规则可执行。",
+  "forbidden_claim": "不能把 synthetic pattern 解释成模型内部模块的 causal 证明。"
+}
