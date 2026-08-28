@@ -1,0 +1,1 @@
+{"primary_threshold_m":0.08,"sustained_near_steps":2,"sensitivity_thresholds_m":[0.05,0.08,0.12],"source_kind":"synthetic_target_trace_not_mujoco"}

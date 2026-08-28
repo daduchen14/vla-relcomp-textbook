@@ -1,0 +1,1 @@
+{"primary_threshold_m":0.06,"sustained_near_steps":3,"sensitivity_thresholds_m":[0.04,0.06,0.09],"source_kind":"synthetic_target_challenge_not_mujoco"}

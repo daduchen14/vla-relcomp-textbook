@@ -1,0 +1,13 @@
+episode_id,step,target_object_id,target_distance_m,nearest_object_id,contact_object_ids
+a1,0,tomato_3,0.20,bowl_1,
+a1,1,tomato_3,0.09,tomato_3,
+a1,2,tomato_3,0.05,tomato_3,
+a1,3,tomato_3,0.03,tomato_3,tomato_3
+a2,0,mug_2,0.30,bowl_2,
+a2,1,mug_2,0.15,bowl_2,
+a2,2,mug_2,0.12,bowl_2,bowl_2
+a2,3,mug_2,0.10,mug_2,
+a3,0,block_4,0.20,block_4,
+a3,1,block_4,0.07,block_4,
+a3,2,block_4,0.09,block_4,
+a3,3,block_4,0.06,block_4,
