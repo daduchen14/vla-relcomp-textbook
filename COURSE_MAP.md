@@ -79,7 +79,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 | 36 | 用诊断证据选择唯一修复或停止修复 | 决策矩阵、风险/收益、负结果 | repair decision | 📘 [教材已编写](mainline/day36/README.md)；真实 diagnosis/训练授权待定 |
 | 37 | 构建严格 L0-only 数据和泄漏测试 | 划分、数据血缘 | L0 dataset builder | 📘 [教材已编写](mainline/day37/README.md)；真实 L0 demonstrations 待生成 |
 | 38 | 实现被选中的最小模块 | 模块边界、接口、回归测试 | 单一 repair module | 📘 [教材已编写](mainline/day38/README.md)；教学候选未获真实训练授权 |
-| 39 | 构造平衡/对比/规范化样本 | sampling、pair 标签、质量 | training pairs | ⬜ 未编写 |
+| 39 | 构造平衡/对比/规范化样本 | sampling、pair 标签、质量 | training pairs | 📘 [教材已编写](mainline/day39/README.md)；真实 tensor/action 数据待接入 |
 | 40 | 定义损失、可训练与冻结参数 | loss、梯度、parameter groups | trainability report | ⬜ 未编写 |
 | 41 | 配置 LoRA/轻量微调、显存与 checkpoint | batch、累积、混合精度、LoRA | bounded train config | ⬜ 未编写 |
 | 42 | 用极小数据 one-batch overfit | 闭环、loss、数据/代码诊断 | overfit smoke evidence | ⬜ 未编写 |
