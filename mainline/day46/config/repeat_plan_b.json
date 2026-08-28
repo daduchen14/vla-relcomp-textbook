@@ -1,0 +1,1 @@
+{"run_prefix":"formal-b","repeat_seeds":[2,3],"output_root":"learner_outputs/mainline/day46/challenge","per_run_resource_budget":{"gpu_count":1,"max_gpu_hours":4,"max_storage_gib":30},"total_gpu_hours_cap":8,"authorized_for_gpu":false,"commands_run":false}
