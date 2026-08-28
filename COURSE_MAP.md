@@ -128,7 +128,7 @@ Day 0 是诊断入口，不计入 70 天。F01–F18 是按需补习库，也不
 |---:|---|---|---|---|
 | 67 | fresh clone 重建环境并复现最小表格 | lockfile、缓存、文档可执行性 | reproduction log | 📘 [教材已编写](mainline/day67/README.md)；免费 fresh-clone smoke 纳入本日验收，正式 VLA-Arena 复现待执行 |
 | 68 | 完成 README、一键入口和演示脚本 | 信息架构、失败回退 | public project entry | 📘 [教材已编写](mainline/day68/README.md)；免费 public demo 已提供 |
-| 69 | 完成答辩故事、问题库和 10 分钟演示 | 口述结构、追问、诚实边界 | slides、口述稿、Q&A | ⬜ 未编写 |
+| 69 | 完成答辩故事、问题库和 10 分钟演示 | 口述结构、追问、诚实边界 | slides、口述稿、Q&A | 📘 [教材已编写](mainline/day69/README.md)；学习者真实口述待完成 |
 | 70 | 不看答案复写核心模块并复现关键证据 | 迁移、代码所有权、最终自检 | final capstone；Gate 8 | ⬜ 未编写 |
 
 **Gate 8：** 从 fresh clone 在限时内复现关键表、定位失败 episode、口述四段诊断和最小修复，并现场改一个参数解释影响；不能由 Agent 代做。
