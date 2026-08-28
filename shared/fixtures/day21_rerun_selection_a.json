@@ -1,0 +1,6 @@
+{
+  "selection_name": "synthetic_critical_reruns_a",
+  "selection_rule": "pre_registered_boundary_tasks_not_result_cherry_pick",
+  "selectors": [{"task_id": 0, "trial_id": 0}, {"task_id": 4, "trial_id": 1}],
+  "source_kind": "planned_rerun_fixture_not_model_result"
+}
