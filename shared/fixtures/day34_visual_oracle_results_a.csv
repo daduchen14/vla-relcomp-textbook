@@ -1,0 +1,11 @@
+pair_id,arm,level,task_id,seed,init_state_id,target_object_id,reference_object_id,instruction_text,overlay_spec,overlay_source,overlay_removed_after_episode,target_contacted,target_lifted,reference_approached,relation_satisfied,success,source_kind
+va,control,0,L0T0,109,v-init-0,tomato_1,bowl_1,pick tomato and place it on bowl,NONE,none,1,0,0,0,0,0,synthetic_visual_oracle_results_not_model
+va,visual_oracle,0,L0T0,109,v-init-0,tomato_1,bowl_1,pick tomato and place it on bowl,TARGET_BOX=tomato_1 | REFERENCE_BOX=bowl_1,simulator_ground_truth,1,1,1,1,1,1,synthetic_visual_oracle_results_not_model
+vb,control,1,L1T1,113,v-init-1,tomato_2,bowl_2,pick tomato and place it on bowl,NONE,none,1,0,0,0,0,0,synthetic_visual_oracle_results_not_model
+vb,visual_oracle,1,L1T1,113,v-init-1,tomato_2,bowl_2,pick tomato and place it on bowl,TARGET_BOX=tomato_2 | REFERENCE_BOX=bowl_2,simulator_ground_truth,1,1,1,0,0,0,synthetic_visual_oracle_results_not_model
+vc,control,2,L2T2,127,v-init-2,tomato_3,bowl_3,pick tomato and place it on bowl,NONE,none,1,1,1,0,0,0,synthetic_visual_oracle_results_not_model
+vc,visual_oracle,2,L2T2,127,v-init-2,tomato_3,bowl_3,pick tomato and place it on bowl,TARGET_BOX=tomato_3 | REFERENCE_BOX=bowl_3,simulator_ground_truth,1,1,1,1,1,1,synthetic_visual_oracle_results_not_model
+vd,control,0,L0T3,131,v-init-3,tomato_4,bowl_4,pick tomato and place it on bowl,NONE,none,1,1,1,1,1,1,synthetic_visual_oracle_results_not_model
+vd,visual_oracle,0,L0T3,131,v-init-3,tomato_4,bowl_4,pick tomato and place it on bowl,TARGET_BOX=tomato_4 | REFERENCE_BOX=bowl_4,simulator_ground_truth,1,1,1,1,1,1,synthetic_visual_oracle_results_not_model
+ve,control,1,L1T4,137,v-init-4,tomato_5,bowl_5,pick tomato and place it on bowl,NONE,none,1,1,1,1,1,1,synthetic_visual_oracle_results_not_model
+ve,visual_oracle,1,L1T4,137,v-init-4,tomato_5,bowl_5,pick tomato and place it on bowl,TARGET_BOX=tomato_5 | REFERENCE_BOX=bowl_5,simulator_ground_truth,1,1,1,0,0,0,synthetic_visual_oracle_results_not_model
